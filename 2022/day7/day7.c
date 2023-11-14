@@ -59,9 +59,11 @@ void print_tree(node *current_node, int level) {
         printf("  ");
     }
     if (current_node->isMainNode) {
-        printf("\033[0;32m%s\033[0;0m\n", current_node->name);
+        printf("\033[0;32m%s\033[0;0m", current_node->name);
     } else {
-    printf("%s\n", current_node->name);}
+    printf("%s", current_node->name);}
+
+    printf("  \033[0;33m%d\033[0;0m\n", current_node->size);
     
     print_tree(current_node->child, level + 1);
 
@@ -75,21 +77,70 @@ void print_tree(node *current_node, int level) {
 
 
 
-int determine_sizes(node *current_node) {
-    if (current_node == NULL) {
-        return 0;
-    }
+int determine_size_of_one_dir(node *current_node) {
+    int size = 0;
+    // we save the entry node
+    node *entry_node = current_node;
     if (current_node->isDirectory == true) {
-        return determine_sizes(current_node->child) + determine_sizes(current_node->next);
-    } else {
-        return current_node->size + determine_sizes(current_node->next);
+        if (current_node->child == NULL) {
+            return 0;
+        } else {
+            current_node = current_node->child;
+            while (current_node != NULL) {
+                size += current_node->size;
+                current_node = current_node->next;
+            }
+        }
+
+    entry_node->size = size;
+
     }
+
+    
+
 }
 
+void determine_size_of_all_dirs(node *current_node) {
+    if (current_node == NULL) {
+        return;
+    }
+    determine_size_of_one_dir(current_node);
+    determine_size_of_all_dirs(current_node->child);
+    determine_size_of_all_dirs(current_node->next);
+}
 
+int size_of_dirs = 0;
+int smallest_directory = 276447232;
+int free_size_target = 30000000;
 
+//function that parse the entire tree and print the size of each directory if the size is <= 100000
+// i need to find the directory with the smallest size with a size >= 26340530
 
+void print_size_of_dirs(node *current_node, int root_size) {
+    if (current_node == NULL) {
+        return;
+    }
+    if (current_node->isDirectory == true) {
+        if (current_node->size <= 100000) {
+            printf("%s  \033[0;33m%d\033[0;0m\n", current_node->name, current_node->size);
+            size_of_dirs += current_node->size;
+        }
+    }
 
+    if (current_node->isDirectory == true) {
+
+        if (current_node->size >= (30000000 + root_size - 70000000)) {
+            if (current_node->size < smallest_directory) {
+                smallest_directory = current_node->size;
+            }
+            
+            printf("\033[0;31m %s  \033[0;33m %d \033[0;0m\n", current_node->name, current_node->size);
+        }
+    }
+
+    print_size_of_dirs(current_node->child, root_size);
+    print_size_of_dirs(current_node->next, root_size);
+}
 
 
 
@@ -266,7 +317,25 @@ int main (int argc, char *argv[]) {
 
     print_tree(root, 0);
 
-    
+
+    for (int l = 0; l < 500; l++) {
+    determine_size_of_all_dirs(root);
+    }
+
+    print_tree(root, 0);
+
+    print_size_of_dirs(root, root->size);
+
+    int free_size = 70000000 - root->size + smallest_directory;
+
+    //printf root size
+    printf("\033[0;33m---------------------[%d : root size]--------------------\033[0;0m\n", root->size);
+
+    printf("\033[0;33m---------------------[%d : freesize]--------------------\033[0;0m\n", free_size);
+
+    printf("\033[0;33m---------------------[%d : size of dirs]--------------------\033[0;0m\n", size_of_dirs);
+
+    printf("\033[0;31m---------------------[%d : smallest dir]--------------------\033[0;0m\n", smallest_directory);
     
 
 
