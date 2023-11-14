@@ -19,7 +19,7 @@ int y_tail = 2499;
 
 void tail_following() {
 
-    if (abs(x_head - x_tail) <= 1 || abs(y_head - y_tail) <= 1) {
+    if ((((abs(x_head - x_tail) + abs(y_head - y_tail) ))/2) < 1) {
         printf("\033[0;31mtail still close enough 😟\033[0;0m\n");
     } else {
         
