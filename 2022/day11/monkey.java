@@ -3,21 +3,21 @@ import java.io.*;
 
 public class monkey {
 
-    public int id;
-    // int list
-    public int[] list;
+    public long id;
+    // long list
+    public long[] list;
 
     public String operation;
-    public int operation_int;
+    public long operation_int;
 
-    public int divisible;
+    public long divisible;
 
     public int throw_true;
     public int throw_false;
 
-    public int number_of_inspections = 0;
+    public long number_of_inspections = 0;
 
-    public monkey(int id, int[] list, String operation, int operation_int, int divisible, int throw_true, int throw_false) {
+    public monkey(long id, long[] list, String operation, long operation_int, long divisible, int throw_true, int throw_false) {
         this.id = id;
         this.list = list;
         this.operation = operation;
@@ -35,22 +35,22 @@ public class monkey {
             case "sum": {
                 Run.worry_level = (list[0] + operation_int);
                 System.out.println("    Worry level increseases by " + operation_int + " to " + Run.worry_level);
-                Run.worry_level = Run.worry_level/3;
-                System.out.println("    Monkey gets bored with item. Worry level is divided by 3 to " + Run.worry_level);
+                //Run.worry_level = Run.worry_level/3;
+                //System.out.println("    Monkey gets bored with item. Worry level is divided by 3 to " + Run.worry_level);
                 break;
             }
             case "mult": {
                 Run.worry_level = (list[0] * operation_int);
                 System.out.println("    Worry level is multiplied by " + operation_int + " to " + Run.worry_level);
-                Run.worry_level = Run.worry_level/3;
-                System.out.println("    Monkey gets bored with item. Worry level is divided by 3 to " + Run.worry_level);
+                //Run.worry_level = Run.worry_level/3;
+                //System.out.println("    Monkey gets bored with item. Worry level is divided by 3 to " + Run.worry_level);
                 break;
             }
             case "square": {
                 Run.worry_level = (list[0] * list[0]);
                 System.out.println("    Worry level is squared to " + Run.worry_level);
-                Run.worry_level = Run.worry_level/3;
-                System.out.println("    Monkey gets bored with item. Worry level is divided by 3 to " + Run.worry_level);
+                //Run.worry_level = Run.worry_level/3;
+                //System.out.println("    Monkey gets bored with item. Worry level is divided by 3 to " + Run.worry_level);
                 break;
             }
         }
@@ -70,12 +70,12 @@ public class monkey {
         return itemSentTo;
     }
 
-    int getListLength() {
+    long getListLength() {
         return list.length;
     }
 
-    void addToList(int item) {
-        int[] newList = new int[list.length + 1];
+    void addToList(long item) {
+        long[] newList = new long[list.length + 1];
         for (int i = 0; i < list.length; i++) {
             newList[i] = list[i];
         }
@@ -85,7 +85,7 @@ public class monkey {
 
     void removeFromList(){
         //remove the first element of the list
-        int[] newList = new int[list.length - 1];
+        long[] newList = new long[list.length - 1];
         for (int i = 0; i < list.length - 1; i++) {
             newList[i] = list[i + 1];
         }
