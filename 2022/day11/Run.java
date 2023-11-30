@@ -4,6 +4,8 @@ public class Run {
 
     public static long worry_level = 0;
 
+    public static int modulo = 2*13*3*17*19*7*11*5;
+
     public static void main(String[] args) {
         monkey monkey0 = new monkey(0, new long[]{89L,95L,92L,64L,87L,68L}, "mult", 11, 2, 7, 4);
         monkey monkey1 = new monkey(1, new long[]{87L, 67L}, "sum", 1, 13, 3, 6);
@@ -17,8 +19,10 @@ public class Run {
 
         monkey[] monkeys = new monkey[]{monkey0, monkey1, monkey2, monkey3, monkey4, monkey5, monkey6, monkey7};
 
+        
+
         //circle through each monkey of the monkeys list 20 times
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 1; i < 10001; i++) {
             for (monkey monkey : monkeys) {
                 while (monkey.getListLength() > 0) {
                     monkey.changeWorryLevel();
@@ -26,6 +30,11 @@ public class Run {
                     monkeys[itemSentTo].addToList(worry_level);
                     monkey.removeFromList();
                 }
+            }
+
+            System.out.println("== After round " + i + " ==");
+            for (monkey monkey : monkeys) {
+              System.out.println("  Monkey " + monkey.id + " inspected items " + monkey.number_of_inspections + " times.");
             }
         }
 
