@@ -1,0 +1,2945 @@
+Token 0: Game
+Token 1: 1
+Token 2: 10
+Token 3: green,
+Token 4: 5
+Token 5: blue;
+Token 6: 1
+Token 7: red,
+Token 8: 9
+Token 9: green,
+Token 10: 10
+Token 11: blue;
+Token 12: 5
+Token 13: blue,
+Token 14: 6
+Token 15: green,
+Token 16: 2
+Token 17: red;
+Token 18: 7
+Token 19: green,
+Token 20: 9
+Token 21: blue,
+Token 22: 1
+Token 23: red;
+Token 24: 2
+Token 25: red,
+Token 26: 10
+Token 27: blue,
+Token 28: 10
+Token 29: green;
+Token 30: 7
+Token 31: blue,
+Token 32: 1
+Token 33: red
+nbRed: 0, nbBlue: 5, nbGreen: 10
+nbRed: 1, nbBlue: 10, nbGreen: 9
+nbRed: 2, nbBlue: 5, nbGreen: 6
+nbRed: 1, nbBlue: 9, nbGreen: 7
+nbRed: 2, nbBlue: 10, nbGreen: 10
+nbRed: 1, nbBlue: 7, nbGreen: 0
+[32mGame 1 is possible
+[0mToken 0: ÙV
+Error: Game not foundAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[32mGame 1 is possible
+[0mToken 0: Game
+Token 1: 3
+Token 2: 2
+Token 3: green,
+Token 4: 4
+Token 5: blue,
+Token 6: 13
+Token 7: red;
+Token 8: 15
+Token 9: blue,
+Token 10: 9
+Token 11: red,
+Token 12: 3
+Token 13: green;
+Token 14: 3
+Token 15: red,
+Token 16: 18
+Token 17: blue,
+Token 18: 3
+Token 19: green;
+Token 20: 6
+Token 21: red,
+Token 22: 4
+Token 23: green,
+Token 24: 2
+Token 25: blue;
+Token 26: 6
+Token 27: blue,
+Token 28: 13
+Token 29: red
+nbRed: 13, nbBlue: 4, nbGreen: 2
+nbRed: 9, nbBlue: 15, nbGreen: 3
+nbRed: 3, nbBlue: 18, nbGreen: 3
+nbRed: 6, nbBlue: 2, nbGreen: 4
+nbRed: 13, nbBlue: 6, nbGreen: 0
+[31mGame 3 is not possible
+[0mToken 0: Game
+Token 1: 4
+Token 2: 9
+Token 3: red,
+Token 4: 1
+Token 5: green,
+Token 6: 13
+Token 7: blue;
+Token 8: 3
+Token 9: red;
+Token 10: 2
+Token 11: blue,
+Token 12: 6
+Token 13: red,
+Token 14: 1
+Token 15: green;
+Token 16: 12
+Token 17: blue,
+Token 18: 2
+Token 19: red
+nbRed: 9, nbBlue: 13, nbGreen: 1
+nbRed: 3, nbBlue: 0, nbGreen: 0
+nbRed: 6, nbBlue: 2, nbGreen: 1
+nbRed: 2, nbBlue: 12, nbGreen: 0
+[32mGame 4 is possible
+[0mToken 0: Game
+Token 1: 5
+Token 2: 1
+Token 3: red,
+Token 4: 8
+Token 5: green;
+Token 6: 2
+Token 7: red,
+Token 8: 8
+Token 9: green,
+Token 10: 8
+Token 11: blue;
+Token 12: 1
+Token 13: red,
+Token 14: 11
+Token 15: green;
+Token 16: 5
+Token 17: blue,
+Token 18: 11
+Token 19: green;
+Token 20: 11
+Token 21: blue,
+Token 22: 2
+Token 23: green;
+Token 24: 10
+Token 25: blue,
+Token 26: 2
+Token 27: red,
+Token 28: 1
+Token 29: green
+nbRed: 1, nbBlue: 0, nbGreen: 8
+nbRed: 2, nbBlue: 8, nbGreen: 8
+nbRed: 1, nbBlue: 0, nbGreen: 11
+nbRed: 0, nbBlue: 5, nbGreen: 11
+nbRed: 0, nbBlue: 11, nbGreen: 2
+nbRed: 2, nbBlue: 10, nbGreen: 1
+[32mGame 5 is possible
+[0mToken 0: Game
+Token 1: 6
+Token 2: 1
+Token 3: red,
+Token 4: 12
+Token 5: blue;
+Token 6: 20
+Token 7: blue,
+Token 8: 3
+Token 9: green,
+Token 10: 2
+Token 11: red;
+Token 12: 4
+Token 13: red,
+Token 14: 15
+Token 15: blue
+nbRed: 1, nbBlue: 12, nbGreen: 0
+nbRed: 2, nbBlue: 20, nbGreen: 3
+nbRed: 4, nbBlue: 15, nbGreen: 0
+[31mGame 6 is not possible
+[0mToken 0: Game
+Token 1: 7
+Token 2: 13
+Token 3: red,
+Token 4: 9
+Token 5: green,
+Token 6: 1
+Token 7: blue;
+Token 8: 8
+Token 9: green,
+Token 10: 2
+Token 11: red,
+Token 12: 6
+Token 13: blue;
+Token 14: 4
+Token 15: green,
+Token 16: 5
+Token 17: blue;
+Token 18: 7
+Token 19: red,
+Token 20: 3
+Token 21: green,
+Token 22: 7
+Token 23: blue;
+Token 24: 19
+Token 25: red,
+Token 26: 5
+Token 27: blue,
+Token 28: 1
+Token 29: green
+nbRed: 13, nbBlue: 1, nbGreen: 9
+nbRed: 2, nbBlue: 6, nbGreen: 8
+nbRed: 0, nbBlue: 5, nbGreen: 4
+nbRed: 7, nbBlue: 7, nbGreen: 3
+nbRed: 19, nbBlue: 5, nbGreen: 1
+[31mGame 7 is not possible
+[0mToken 0: Game
+Token 1: 8
+Token 2: 11
+Token 3: red,
+Token 4: 14
+Token 5: green,
+Token 6: 4
+Token 7: blue;
+Token 8: 2
+Token 9: blue,
+Token 10: 5
+Token 11: green,
+Token 12: 16
+Token 13: red;
+Token 14: 18
+Token 15: blue,
+Token 16: 11
+Token 17: red,
+Token 18: 2
+Token 19: green;
+Token 20: 2
+Token 21: blue,
+Token 22: 15
+Token 23: red;
+Token 24: 13
+Token 25: green,
+Token 26: 8
+Token 27: blue
+nbRed: 11, nbBlue: 4, nbGreen: 14
+nbRed: 16, nbBlue: 2, nbGreen: 5
+nbRed: 11, nbBlue: 18, nbGreen: 2
+nbRed: 15, nbBlue: 2, nbGreen: 0
+nbRed: 0, nbBlue: 8, nbGreen: 13
+[31mGame 8 is not possible
+[0mToken 0: Game
+Token 1: 9
+Token 2: 7
+Token 3: green,
+Token 4: 5
+Token 5: blue,
+Token 6: 11
+Token 7: red;
+Token 8: 10
+Token 9: red,
+Token 10: 7
+Token 11: green,
+Token 12: 4
+Token 13: blue;
+Token 14: 1
+Token 15: red;
+Token 16: 6
+Token 17: green,
+Token 18: 2
+Token 19: blue,
+Token 20: 9
+Token 21: red;
+Token 22: 8
+Token 23: green,
+Token 24: 10
+Token 25: red,
+Token 26: 6
+Token 27: blue;
+Token 28: 5
+Token 29: red,
+Token 30: 5
+Token 31: green,
+Token 32: 7
+Token 33: blue
+nbRed: 11, nbBlue: 5, nbGreen: 7
+nbRed: 10, nbBlue: 4, nbGreen: 7
+nbRed: 1, nbBlue: 0, nbGreen: 0
+nbRed: 9, nbBlue: 2, nbGreen: 6
+nbRed: 10, nbBlue: 6, nbGreen: 8
+nbRed: 5, nbBlue: 7, nbGreen: 5
+[32mGame 9 is possible
+[0mToken 0: Game
+Token 1: 10
+Token 2: 4
+Token 3: blue,
+Token 4: 2
+Token 5: green,
+Token 6: 1
+Token 7: red;
+Token 8: 5
+Token 9: green,
+Token 10: 2
+Token 11: red,
+Token 12: 1
+Token 13: blue;
+Token 14: 3
+Token 15: green,
+Token 16: 8
+Token 17: blue,
+Token 18: 1
+Token 19: red;
+Token 20: 2
+Token 21: blue,
+Token 22: 6
+Token 23: green,
+Token 24: 2
+Token 25: red;
+Token 26: 1
+Token 27: red,
+Token 28: 4
+Token 29: green,
+Token 30: 2
+Token 31: blue
+nbRed: 1, nbBlue: 4, nbGreen: 2
+nbRed: 2, nbBlue: 1, nbGreen: 5
+nbRed: 1, nbBlue: 8, nbGreen: 3
+nbRed: 2, nbBlue: 2, nbGreen: 6
+nbRed: 1, nbBlue: 2, nbGreen: 4
+[32mGame 10 is possible
+[0mToken 0: Game
+Token 1: 11
+Token 2: 3
+Token 3: red,
+Token 4: 4
+Token 5: blue;
+Token 6: 8
+Token 7: blue,
+Token 8: 7
+Token 9: green,
+Token 10: 2
+Token 11: red;
+Token 12: 7
+Token 13: blue,
+Token 14: 1
+Token 15: red,
+Token 16: 6
+Token 17: green;
+Token 18: 13
+Token 19: blue,
+Token 20: 4
+Token 21: green
+nbRed: 3, nbBlue: 4, nbGreen: 0
+nbRed: 2, nbBlue: 8, nbGreen: 7
+nbRed: 1, nbBlue: 7, nbGreen: 6
+nbRed: 0, nbBlue: 13, nbGreen: 4
+[32mGame 11 is possible
+[0mToken 0: Game
+Token 1: 12
+Token 2: 2
+Token 3: red,
+Token 4: 3
+Token 5: blue,
+Token 6: 4
+Token 7: green;
+Token 8: 2
+Token 9: blue,
+Token 10: 9
+Token 11: red,
+Token 12: 8
+Token 13: green;
+Token 14: 10
+Token 15: red,
+Token 16: 1
+Token 17: blue;
+Token 18: 1
+Token 19: green,
+Token 20: 7
+Token 21: red,
+Token 22: 3
+Token 23: blue;
+Token 24: 7
+Token 25: red,
+Token 26: 2
+Token 27: blue,
+Token 28: 9
+Token 29: green
+nbRed: 2, nbBlue: 3, nbGreen: 4
+nbRed: 9, nbBlue: 2, nbGreen: 8
+nbRed: 10, nbBlue: 1, nbGreen: 0
+nbRed: 7, nbBlue: 3, nbGreen: 1
+nbRed: 7, nbBlue: 2, nbGreen: 9
+[32mGame 12 is possible
+[0mToken 0: Game
+Token 1: 13
+Token 2: 12
+Token 3: red,
+Token 4: 6
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 15
+Token 9: green,
+Token 10: 2
+Token 11: red,
+Token 12: 4
+Token 13: blue;
+Token 14: 7
+Token 15: green,
+Token 16: 1
+Token 17: red,
+Token 18: 3
+Token 19: blue
+nbRed: 12, nbBlue: 2, nbGreen: 6
+nbRed: 2, nbBlue: 4, nbGreen: 15
+nbRed: 1, nbBlue: 3, nbGreen: 7
+[31mGame 13 is not possible
+[0mToken 0: Game
+Token 1: 14
+Token 2: 9
+Token 3: green,
+Token 4: 4
+Token 5: red;
+Token 6: 6
+Token 7: blue,
+Token 8: 1
+Token 9: red,
+Token 10: 7
+Token 11: green;
+Token 12: 3
+Token 13: blue,
+Token 14: 5
+Token 15: green
+nbRed: 4, nbBlue: 0, nbGreen: 9
+nbRed: 1, nbBlue: 6, nbGreen: 7
+nbRed: 0, nbBlue: 3, nbGreen: 5
+[32mGame 14 is possible
+[0mToken 0: Game
+Token 1: 15
+Token 2: 7
+Token 3: red,
+Token 4: 3
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 3
+Token 9: blue,
+Token 10: 4
+Token 11: green;
+Token 12: 4
+Token 13: blue,
+Token 14: 4
+Token 15: green,
+Token 16: 9
+Token 17: red
+nbRed: 7, nbBlue: 2, nbGreen: 3
+nbRed: 0, nbBlue: 3, nbGreen: 4
+nbRed: 9, nbBlue: 4, nbGreen: 4
+[32mGame 15 is possible
+[0mToken 0: Game
+Token 1: 16
+Token 2: 12
+Token 3: blue,
+Token 4: 11
+Token 5: green,
+Token 6: 4
+Token 7: red;
+Token 8: 8
+Token 9: blue,
+Token 10: 9
+Token 11: red,
+Token 12: 10
+Token 13: green;
+Token 14: 9
+Token 15: green,
+Token 16: 11
+Token 17: blue,
+Token 18: 13
+Token 19: red;
+Token 20: 10
+Token 21: red,
+Token 22: 5
+Token 23: blue,
+Token 24: 6
+Token 25: green;
+Token 26: 2
+Token 27: red;
+Token 28: 2
+Token 29: blue,
+Token 30: 5
+Token 31: green,
+Token 32: 5
+Token 33: red
+nbRed: 4, nbBlue: 12, nbGreen: 11
+nbRed: 9, nbBlue: 8, nbGreen: 10
+nbRed: 13, nbBlue: 11, nbGreen: 9
+nbRed: 10, nbBlue: 5, nbGreen: 6
+nbRed: 2, nbBlue: 0, nbGreen: 0
+nbRed: 5, nbBlue: 2, nbGreen: 5
+[31mGame 16 is not possible
+[0mToken 0: Game
+Token 1: 17
+Token 2: 3
+Token 3: red,
+Token 4: 2
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 1
+Token 9: blue,
+Token 10: 3
+Token 11: red,
+Token 12: 1
+Token 13: green;
+Token 14: 10
+Token 15: green
+nbRed: 3, nbBlue: 2, nbGreen: 2
+nbRed: 3, nbBlue: 1, nbGreen: 1
+nbRed: 0, nbBlue: 0, nbGreen: 10
+[32mGame 17 is possible
+[0mToken 0: Game
+Token 1: 18
+Token 2: 3
+Token 3: green,
+Token 4: 1
+Token 5: blue,
+Token 6: 4
+Token 7: red;
+Token 8: 12
+Token 9: red,
+Token 10: 5
+Token 11: green;
+Token 12: 3
+Token 13: red,
+Token 14: 3
+Token 15: green,
+Token 16: 3
+Token 17: blue;
+Token 18: 13
+Token 19: red,
+Token 20: 2
+Token 21: blue
+nbRed: 4, nbBlue: 1, nbGreen: 3
+nbRed: 12, nbBlue: 0, nbGreen: 5
+nbRed: 3, nbBlue: 3, nbGreen: 3
+nbRed: 13, nbBlue: 2, nbGreen: 0
+[31mGame 18 is not possible
+[0mToken 0: Game
+Token 1: 19
+Token 2: 13
+Token 3: blue,
+Token 4: 8
+Token 5: green,
+Token 6: 6
+Token 7: red;
+Token 8: 10
+Token 9: red,
+Token 10: 12
+Token 11: blue;
+Token 12: 8
+Token 13: green,
+Token 14: 13
+Token 15: red,
+Token 16: 9
+Token 17: blue;
+Token 18: 13
+Token 19: green,
+Token 20: 3
+Token 21: red,
+Token 22: 5
+Token 23: blue;
+Token 24: 5
+Token 25: green,
+Token 26: 1
+Token 27: blue,
+Token 28: 2
+Token 29: red
+nbRed: 6, nbBlue: 13, nbGreen: 8
+nbRed: 10, nbBlue: 12, nbGreen: 0
+nbRed: 13, nbBlue: 9, nbGreen: 8
+nbRed: 3, nbBlue: 5, nbGreen: 13
+nbRed: 2, nbBlue: 1, nbGreen: 5
+[31mGame 19 is not possible
+[0mToken 0: Game
+Token 1: 20
+Token 2: 19
+Token 3: red,
+Token 4: 13
+Token 5: blue,
+Token 6: 4
+Token 7: green;
+Token 8: 1
+Token 9: red,
+Token 10: 4
+Token 11: green,
+Token 12: 8
+Token 13: blue;
+Token 14: 14
+Token 15: red,
+Token 16: 6
+Token 17: blue,
+Token 18: 7
+Token 19: green;
+Token 20: 11
+Token 21: red,
+Token 22: 13
+Token 23: blue,
+Token 24: 8
+Token 25: green
+nbRed: 19, nbBlue: 13, nbGreen: 4
+nbRed: 1, nbBlue: 8, nbGreen: 4
+nbRed: 14, nbBlue: 6, nbGreen: 7
+nbRed: 11, nbBlue: 13, nbGreen: 8
+[31mGame 20 is not possible
+[0mToken 0: Game
+Token 1: 21
+Token 2: 3
+Token 3: green,
+Token 4: 13
+Token 5: red,
+Token 6: 7
+Token 7: blue;
+Token 8: 1
+Token 9: blue,
+Token 10: 1
+Token 11: green,
+Token 12: 1
+Token 13: red;
+Token 14: 3
+Token 15: blue,
+Token 16: 15
+Token 17: red,
+Token 18: 5
+Token 19: green;
+Token 20: 3
+Token 21: blue,
+Token 22: 15
+Token 23: red,
+Token 24: 2
+Token 25: green;
+Token 26: 6
+Token 27: green,
+Token 28: 9
+Token 29: red,
+Token 30: 14
+Token 31: blue
+nbRed: 13, nbBlue: 7, nbGreen: 3
+nbRed: 1, nbBlue: 1, nbGreen: 1
+nbRed: 15, nbBlue: 3, nbGreen: 5
+nbRed: 15, nbBlue: 3, nbGreen: 2
+nbRed: 9, nbBlue: 14, nbGreen: 6
+[31mGame 21 is not possible
+[0mToken 0: Game
+Token 1: 22
+Token 2: 2
+Token 3: red,
+Token 4: 6
+Token 5: green,
+Token 6: 4
+Token 7: blue;
+Token 8: 6
+Token 9: green,
+Token 10: 2
+Token 11: red;
+Token 12: 1
+Token 13: blue,
+Token 14: 4
+Token 15: red,
+Token 16: 3
+Token 17: green;
+Token 18: 11
+Token 19: green,
+Token 20: 7
+Token 21: blue,
+Token 22: 1
+Token 23: red;
+Token 24: 4
+Token 25: red,
+Token 26: 8
+Token 27: green,
+Token 28: 3
+Token 29: blue
+nbRed: 2, nbBlue: 4, nbGreen: 6
+nbRed: 2, nbBlue: 0, nbGreen: 6
+nbRed: 4, nbBlue: 1, nbGreen: 3
+nbRed: 1, nbBlue: 7, nbGreen: 11
+nbRed: 4, nbBlue: 3, nbGreen: 8
+[32mGame 22 is possible
+[0mToken 0: Game
+Token 1: 23
+Token 2: 14
+Token 3: blue;
+Token 4: 3
+Token 5: green,
+Token 6: 2
+Token 7: red,
+Token 8: 3
+Token 9: blue;
+Token 10: 5
+Token 11: blue,
+Token 12: 1
+Token 13: red
+nbRed: 0, nbBlue: 14, nbGreen: 0
+nbRed: 2, nbBlue: 3, nbGreen: 3
+nbRed: 1, nbBlue: 5, nbGreen: 0
+[32mGame 23 is possible
+[0mToken 0: Game
+Token 1: 24
+Token 2: 12
+Token 3: red;
+Token 4: 5
+Token 5: blue,
+Token 6: 16
+Token 7: red;
+Token 8: 2
+Token 9: blue,
+Token 10: 1
+Token 11: green,
+Token 12: 16
+Token 13: red;
+Token 14: 1
+Token 15: green,
+Token 16: 11
+Token 17: red;
+Token 18: 2
+Token 19: blue,
+Token 20: 8
+Token 21: red,
+Token 22: 1
+Token 23: green
+nbRed: 12, nbBlue: 0, nbGreen: 0
+nbRed: 16, nbBlue: 5, nbGreen: 0
+nbRed: 16, nbBlue: 2, nbGreen: 1
+nbRed: 11, nbBlue: 0, nbGreen: 1
+nbRed: 8, nbBlue: 2, nbGreen: 1
+[31mGame 24 is not possible
+[0mToken 0: Game
+Token 1: 25
+Token 2: 4
+Token 3: red,
+Token 4: 11
+Token 5: blue,
+Token 6: 1
+Token 7: green;
+Token 8: 7
+Token 9: red,
+Token 10: 9
+Token 11: blue;
+Token 12: 6
+Token 13: blue,
+Token 14: 10
+Token 15: green
+nbRed: 4, nbBlue: 11, nbGreen: 1
+nbRed: 7, nbBlue: 9, nbGreen: 0
+nbRed: 0, nbBlue: 6, nbGreen: 10
+[32mGame 25 is possible
+[0mToken 0: Game
+Token 1: 26
+Token 2: 3
+Token 3: green,
+Token 4: 13
+Token 5: red;
+Token 6: 7
+Token 7: blue,
+Token 8: 13
+Token 9: red,
+Token 10: 5
+Token 11: green;
+Token 12: 5
+Token 13: blue,
+Token 14: 8
+Token 15: green,
+Token 16: 11
+Token 17: red;
+Token 18: 7
+Token 19: blue,
+Token 20: 18
+Token 21: green,
+Token 22: 6
+Token 23: red
+nbRed: 13, nbBlue: 0, nbGreen: 3
+nbRed: 13, nbBlue: 7, nbGreen: 5
+nbRed: 11, nbBlue: 5, nbGreen: 8
+nbRed: 6, nbBlue: 7, nbGreen: 18
+[31mGame 26 is not possible
+[0mToken 0: Game
+Token 1: 27
+Token 2: 6
+Token 3: green,
+Token 4: 6
+Token 5: red,
+Token 6: 5
+Token 7: blue;
+Token 8: 2
+Token 9: blue,
+Token 10: 4
+Token 11: green,
+Token 12: 11
+Token 13: red;
+Token 14: 15
+Token 15: red,
+Token 16: 6
+Token 17: green;
+Token 18: 4
+Token 19: green,
+Token 20: 12
+Token 21: red,
+Token 22: 2
+Token 23: blue;
+Token 24: 3
+Token 25: blue,
+Token 26: 5
+Token 27: red
+nbRed: 6, nbBlue: 5, nbGreen: 6
+nbRed: 11, nbBlue: 2, nbGreen: 4
+nbRed: 15, nbBlue: 0, nbGreen: 6
+nbRed: 12, nbBlue: 2, nbGreen: 4
+nbRed: 5, nbBlue: 3, nbGreen: 0
+[31mGame 27 is not possible
+[0mToken 0: Game
+Token 1: 28
+Token 2: 16
+Token 3: blue,
+Token 4: 6
+Token 5: red,
+Token 6: 1
+Token 7: green;
+Token 8: 7
+Token 9: red,
+Token 10: 4
+Token 11: green,
+Token 12: 10
+Token 13: blue;
+Token 14: 1
+Token 15: red,
+Token 16: 4
+Token 17: green
+nbRed: 6, nbBlue: 16, nbGreen: 1
+nbRed: 7, nbBlue: 10, nbGreen: 4
+nbRed: 1, nbBlue: 0, nbGreen: 4
+[31mGame 28 is not possible
+[0mToken 0: Game
+Token 1: 29
+Token 2: 5
+Token 3: blue,
+Token 4: 4
+Token 5: red;
+Token 6: 6
+Token 7: blue,
+Token 8: 3
+Token 9: red,
+Token 10: 4
+Token 11: green;
+Token 12: 2
+Token 13: green,
+Token 14: 4
+Token 15: red,
+Token 16: 5
+Token 17: blue;
+Token 18: 1
+Token 19: green,
+Token 20: 7
+Token 21: blue,
+Token 22: 4
+Token 23: red;
+Token 24: 3
+Token 25: green,
+Token 26: 2
+Token 27: blue,
+Token 28: 4
+Token 29: red
+nbRed: 4, nbBlue: 5, nbGreen: 0
+nbRed: 3, nbBlue: 6, nbGreen: 4
+nbRed: 4, nbBlue: 5, nbGreen: 2
+nbRed: 4, nbBlue: 7, nbGreen: 1
+nbRed: 4, nbBlue: 2, nbGreen: 3
+[32mGame 29 is possible
+[0mToken 0: Game
+Token 1: 30
+Token 2: 2
+Token 3: green;
+Token 4: 14
+Token 5: green,
+Token 6: 1
+Token 7: blue,
+Token 8: 2
+Token 9: red;
+Token 10: 5
+Token 11: red,
+Token 12: 14
+Token 13: green
+nbRed: 0, nbBlue: 0, nbGreen: 2
+nbRed: 2, nbBlue: 1, nbGreen: 14
+nbRed: 5, nbBlue: 0, nbGreen: 14
+[31mGame 30 is not possible
+[0mToken 0: Game
+Token 1: 31
+Token 2: 9
+Token 3: blue,
+Token 4: 6
+Token 5: red,
+Token 6: 7
+Token 7: green;
+Token 8: 20
+Token 9: red,
+Token 10: 1
+Token 11: green,
+Token 12: 15
+Token 13: blue;
+Token 14: 6
+Token 15: blue,
+Token 16: 7
+Token 17: green,
+Token 18: 17
+Token 19: red;
+Token 20: 2
+Token 21: blue,
+Token 22: 3
+Token 23: green,
+Token 24: 6
+Token 25: red;
+Token 26: 1
+Token 27: red,
+Token 28: 3
+Token 29: blue,
+Token 30: 2
+Token 31: green;
+Token 32: 5
+Token 33: green,
+Token 34: 18
+Token 35: red,
+Token 36: 6
+Token 37: blue
+nbRed: 6, nbBlue: 9, nbGreen: 7
+nbRed: 20, nbBlue: 15, nbGreen: 1
+nbRed: 17, nbBlue: 6, nbGreen: 7
+nbRed: 6, nbBlue: 2, nbGreen: 3
+nbRed: 1, nbBlue: 3, nbGreen: 2
+nbRed: 18, nbBlue: 6, nbGreen: 5
+[31mGame 31 is not possible
+[0mToken 0: Game
+Token 1: 32
+Token 2: 7
+Token 3: green,
+Token 4: 9
+Token 5: blue,
+Token 6: 8
+Token 7: red;
+Token 8: 8
+Token 9: red,
+Token 10: 13
+Token 11: green,
+Token 12: 19
+Token 13: blue;
+Token 14: 2
+Token 15: red,
+Token 16: 9
+Token 17: blue,
+Token 18: 3
+Token 19: green;
+Token 20: 9
+Token 21: green,
+Token 22: 6
+Token 23: blue,
+Token 24: 6
+Token 25: red
+nbRed: 8, nbBlue: 9, nbGreen: 7
+nbRed: 8, nbBlue: 19, nbGreen: 13
+nbRed: 2, nbBlue: 9, nbGreen: 3
+nbRed: 6, nbBlue: 6, nbGreen: 9
+[31mGame 32 is not possible
+[0mToken 0: Game
+Token 1: 33
+Token 2: 6
+Token 3: blue,
+Token 4: 12
+Token 5: red;
+Token 6: 13
+Token 7: blue,
+Token 8: 3
+Token 9: green,
+Token 10: 15
+Token 11: red;
+Token 12: 5
+Token 13: red,
+Token 14: 10
+Token 15: blue,
+Token 16: 4
+Token 17: green;
+Token 18: 11
+Token 19: blue,
+Token 20: 6
+Token 21: red
+nbRed: 12, nbBlue: 6, nbGreen: 0
+nbRed: 15, nbBlue: 13, nbGreen: 3
+nbRed: 5, nbBlue: 10, nbGreen: 4
+nbRed: 6, nbBlue: 11, nbGreen: 0
+[31mGame 33 is not possible
+[0mToken 0: Game
+Token 1: 34
+Token 2: 5
+Token 3: green,
+Token 4: 16
+Token 5: blue,
+Token 6: 6
+Token 7: red;
+Token 8: 10
+Token 9: green,
+Token 10: 1
+Token 11: blue,
+Token 12: 4
+Token 13: red;
+Token 14: 2
+Token 15: red,
+Token 16: 7
+Token 17: blue,
+Token 18: 6
+Token 19: green;
+Token 20: 12
+Token 21: green,
+Token 22: 4
+Token 23: blue,
+Token 24: 4
+Token 25: red
+nbRed: 6, nbBlue: 16, nbGreen: 5
+nbRed: 4, nbBlue: 1, nbGreen: 10
+nbRed: 2, nbBlue: 7, nbGreen: 6
+nbRed: 4, nbBlue: 4, nbGreen: 12
+[31mGame 34 is not possible
+[0mToken 0: Game
+Token 1: 35
+Token 2: 11
+Token 3: green,
+Token 4: 3
+Token 5: blue;
+Token 6: 1
+Token 7: red,
+Token 8: 6
+Token 9: blue,
+Token 10: 10
+Token 11: green;
+Token 12: 11
+Token 13: green,
+Token 14: 3
+Token 15: blue;
+Token 16: 1
+Token 17: red,
+Token 18: 2
+Token 19: blue;
+Token 20: 11
+Token 21: green,
+Token 22: 3
+Token 23: blue,
+Token 24: 1
+Token 25: red;
+Token 26: 3
+Token 27: blue,
+Token 28: 2
+Token 29: green
+nbRed: 0, nbBlue: 3, nbGreen: 11
+nbRed: 1, nbBlue: 6, nbGreen: 10
+nbRed: 0, nbBlue: 3, nbGreen: 11
+nbRed: 1, nbBlue: 2, nbGreen: 0
+nbRed: 1, nbBlue: 3, nbGreen: 11
+nbRed: 0, nbBlue: 3, nbGreen: 2
+[32mGame 35 is possible
+[0mToken 0: Game
+Token 1: 36
+Token 2: 10
+Token 3: green,
+Token 4: 6
+Token 5: red,
+Token 6: 4
+Token 7: blue;
+Token 8: 3
+Token 9: green,
+Token 10: 3
+Token 11: blue,
+Token 12: 5
+Token 13: red;
+Token 14: 6
+Token 15: red,
+Token 16: 5
+Token 17: blue,
+Token 18: 10
+Token 19: green
+nbRed: 6, nbBlue: 4, nbGreen: 10
+nbRed: 5, nbBlue: 3, nbGreen: 3
+nbRed: 6, nbBlue: 5, nbGreen: 10
+[32mGame 36 is possible
+[0mToken 0: Game
+Token 1: 37
+Token 2: 8
+Token 3: red,
+Token 4: 7
+Token 5: blue,
+Token 6: 5
+Token 7: green;
+Token 8: 8
+Token 9: blue,
+Token 10: 5
+Token 11: green,
+Token 12: 14
+Token 13: red;
+Token 14: 8
+Token 15: red,
+Token 16: 2
+Token 17: blue
+nbRed: 8, nbBlue: 7, nbGreen: 5
+nbRed: 14, nbBlue: 8, nbGreen: 5
+nbRed: 8, nbBlue: 2, nbGreen: 0
+[31mGame 37 is not possible
+[0mToken 0: Game
+Token 1: 38
+Token 2: 4
+Token 3: green,
+Token 4: 1
+Token 5: red,
+Token 6: 4
+Token 7: blue;
+Token 8: 8
+Token 9: green,
+Token 10: 11
+Token 11: blue;
+Token 12: 7
+Token 13: red,
+Token 14: 5
+Token 15: blue
+nbRed: 1, nbBlue: 4, nbGreen: 4
+nbRed: 0, nbBlue: 11, nbGreen: 8
+nbRed: 7, nbBlue: 5, nbGreen: 0
+[32mGame 38 is possible
+[0mToken 0: Game
+Token 1: 39
+Token 2: 2
+Token 3: blue,
+Token 4: 4
+Token 5: red,
+Token 6: 4
+Token 7: green;
+Token 8: 8
+Token 9: green,
+Token 10: 8
+Token 11: red,
+Token 12: 1
+Token 13: blue;
+Token 14: 3
+Token 15: red
+nbRed: 4, nbBlue: 2, nbGreen: 4
+nbRed: 8, nbBlue: 1, nbGreen: 8
+nbRed: 3, nbBlue: 0, nbGreen: 0
+[32mGame 39 is possible
+[0mToken 0: Game
+Token 1: 40
+Token 2: 4
+Token 3: green,
+Token 4: 3
+Token 5: red,
+Token 6: 14
+Token 7: blue;
+Token 8: 4
+Token 9: blue,
+Token 10: 13
+Token 11: green,
+Token 12: 3
+Token 13: red;
+Token 14: 12
+Token 15: green,
+Token 16: 2
+Token 17: red,
+Token 18: 2
+Token 19: blue;
+Token 20: 8
+Token 21: green,
+Token 22: 1
+Token 23: red,
+Token 24: 11
+Token 25: blue;
+Token 26: 4
+Token 27: green,
+Token 28: 1
+Token 29: red,
+Token 30: 1
+Token 31: blue
+nbRed: 3, nbBlue: 14, nbGreen: 4
+nbRed: 3, nbBlue: 4, nbGreen: 13
+nbRed: 2, nbBlue: 2, nbGreen: 12
+nbRed: 1, nbBlue: 11, nbGreen: 8
+nbRed: 1, nbBlue: 1, nbGreen: 4
+[32mGame 40 is possible
+[0mToken 0: Game
+Token 1: 41
+Token 2: 4
+Token 3: red,
+Token 4: 1
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 4
+Token 9: red;
+Token 10: 4
+Token 11: red
+nbRed: 4, nbBlue: 2, nbGreen: 1
+nbRed: 4, nbBlue: 0, nbGreen: 0
+nbRed: 4, nbBlue: 0, nbGreen: 0
+[32mGame 41 is possible
+[0mToken 0: Game
+Token 1: 42
+Token 2: 12
+Token 3: red,
+Token 4: 8
+Token 5: blue,
+Token 6: 1
+Token 7: green;
+Token 8: 8
+Token 9: green,
+Token 10: 6
+Token 11: red,
+Token 12: 5
+Token 13: blue;
+Token 14: 12
+Token 15: green,
+Token 16: 3
+Token 17: red,
+Token 18: 13
+Token 19: blue;
+Token 20: 1
+Token 21: red,
+Token 22: 2
+Token 23: green,
+Token 24: 8
+Token 25: blue;
+Token 26: 3
+Token 27: green,
+Token 28: 5
+Token 29: red,
+Token 30: 6
+Token 31: blue
+nbRed: 12, nbBlue: 8, nbGreen: 1
+nbRed: 6, nbBlue: 5, nbGreen: 8
+nbRed: 3, nbBlue: 13, nbGreen: 12
+nbRed: 1, nbBlue: 8, nbGreen: 2
+nbRed: 5, nbBlue: 6, nbGreen: 3
+[32mGame 42 is possible
+[0mToken 0: V
+Error: Game not foundAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[32mGame 42 is possible
+[0mToken 0: Game
+Token 1: 44
+Token 2: 6
+Token 3: green,
+Token 4: 2
+Token 5: red,
+Token 6: 4
+Token 7: blue;
+Token 8: 10
+Token 9: green,
+Token 10: 6
+Token 11: red;
+Token 12: 5
+Token 13: blue,
+Token 14: 15
+Token 15: red,
+Token 16: 13
+Token 17: green;
+Token 18: 1
+Token 19: blue,
+Token 20: 6
+Token 21: red,
+Token 22: 3
+Token 23: green;
+Token 24: 9
+Token 25: red,
+Token 26: 5
+Token 27: green,
+Token 28: 3
+Token 29: blue;
+Token 30: 6
+Token 31: green,
+Token 32: 4
+Token 33: blue,
+Token 34: 5
+Token 35: red
+nbRed: 2, nbBlue: 4, nbGreen: 6
+nbRed: 6, nbBlue: 0, nbGreen: 10
+nbRed: 15, nbBlue: 5, nbGreen: 13
+nbRed: 6, nbBlue: 1, nbGreen: 3
+nbRed: 9, nbBlue: 3, nbGreen: 5
+nbRed: 5, nbBlue: 4, nbGreen: 6
+[31mGame 44 is not possible
+[0mToken 0: Game
+Token 1: 45
+Token 2: 10
+Token 3: blue,
+Token 4: 14
+Token 5: green;
+Token 6: 2
+Token 7: green,
+Token 8: 2
+Token 9: red,
+Token 10: 12
+Token 11: blue;
+Token 12: 7
+Token 13: green,
+Token 14: 1
+Token 15: red;
+Token 16: 8
+Token 17: blue,
+Token 18: 6
+Token 19: green,
+Token 20: 1
+Token 21: red
+nbRed: 0, nbBlue: 10, nbGreen: 14
+nbRed: 2, nbBlue: 12, nbGreen: 2
+nbRed: 1, nbBlue: 0, nbGreen: 7
+nbRed: 1, nbBlue: 8, nbGreen: 6
+[31mGame 45 is not possible
+[0mToken 0: Game
+Token 1: 46
+Token 2: 8
+Token 3: red,
+Token 4: 10
+Token 5: green,
+Token 6: 15
+Token 7: blue;
+Token 8: 9
+Token 9: green,
+Token 10: 3
+Token 11: red,
+Token 12: 17
+Token 13: blue;
+Token 14: 2
+Token 15: blue,
+Token 16: 10
+Token 17: red,
+Token 18: 5
+Token 19: green;
+Token 20: 11
+Token 21: blue,
+Token 22: 3
+Token 23: green,
+Token 24: 9
+Token 25: red;
+Token 26: 5
+Token 27: red,
+Token 28: 11
+Token 29: blue,
+Token 30: 1
+Token 31: green;
+Token 32: 7
+Token 33: green,
+Token 34: 5
+Token 35: red,
+Token 36: 16
+Token 37: blue
+nbRed: 8, nbBlue: 15, nbGreen: 10
+nbRed: 3, nbBlue: 17, nbGreen: 9
+nbRed: 10, nbBlue: 2, nbGreen: 5
+nbRed: 9, nbBlue: 11, nbGreen: 3
+nbRed: 5, nbBlue: 11, nbGreen: 1
+nbRed: 5, nbBlue: 16, nbGreen: 7
+[31mGame 46 is not possible
+[0mToken 0: Game
+Token 1: 47
+Token 2: 10
+Token 3: blue,
+Token 4: 1
+Token 5: green,
+Token 6: 1
+Token 7: red;
+Token 8: 3
+Token 9: red,
+Token 10: 8
+Token 11: blue,
+Token 12: 7
+Token 13: green;
+Token 14: 8
+Token 15: red,
+Token 16: 9
+Token 17: blue;
+Token 18: 2
+Token 19: green,
+Token 20: 8
+Token 21: red,
+Token 22: 1
+Token 23: blue
+nbRed: 1, nbBlue: 10, nbGreen: 1
+nbRed: 3, nbBlue: 8, nbGreen: 7
+nbRed: 8, nbBlue: 9, nbGreen: 0
+nbRed: 8, nbBlue: 1, nbGreen: 2
+[32mGame 47 is possible
+[0mToken 0: Game
+Token 1: 48
+Token 2: 5
+Token 3: blue,
+Token 4: 2
+Token 5: green;
+Token 6: 2
+Token 7: red,
+Token 8: 7
+Token 9: green,
+Token 10: 2
+Token 11: blue;
+Token 12: 1
+Token 13: blue,
+Token 14: 3
+Token 15: green,
+Token 16: 1
+Token 17: red
+nbRed: 0, nbBlue: 5, nbGreen: 2
+nbRed: 2, nbBlue: 2, nbGreen: 7
+nbRed: 1, nbBlue: 1, nbGreen: 3
+[32mGame 48 is possible
+[0mToken 0: Game
+Token 1: 49
+Token 2: 2
+Token 3: green,
+Token 4: 6
+Token 5: red,
+Token 6: 5
+Token 7: blue;
+Token 8: 6
+Token 9: green;
+Token 10: 4
+Token 11: blue,
+Token 12: 17
+Token 13: red,
+Token 14: 5
+Token 15: green
+nbRed: 6, nbBlue: 5, nbGreen: 2
+nbRed: 0, nbBlue: 0, nbGreen: 6
+nbRed: 17, nbBlue: 4, nbGreen: 5
+[31mGame 49 is not possible
+[0mToken 0: Game
+Token 1: 50
+Token 2: 5
+Token 3: blue,
+Token 4: 10
+Token 5: green;
+Token 6: 6
+Token 7: blue,
+Token 8: 4
+Token 9: red,
+Token 10: 9
+Token 11: green;
+Token 12: 7
+Token 13: red,
+Token 14: 4
+Token 15: blue;
+Token 16: 7
+Token 17: red,
+Token 18: 3
+Token 19: blue,
+Token 20: 14
+Token 21: green;
+Token 22: 5
+Token 23: blue,
+Token 24: 10
+Token 25: green,
+Token 26: 9
+Token 27: red;
+Token 28: 13
+Token 29: green,
+Token 30: 1
+Token 31: blue,
+Token 32: 9
+Token 33: red
+nbRed: 0, nbBlue: 5, nbGreen: 10
+nbRed: 4, nbBlue: 6, nbGreen: 9
+nbRed: 7, nbBlue: 4, nbGreen: 0
+nbRed: 7, nbBlue: 3, nbGreen: 14
+nbRed: 9, nbBlue: 5, nbGreen: 10
+nbRed: 9, nbBlue: 1, nbGreen: 13
+[31mGame 50 is not possible
+[0mToken 0: Game
+Token 1: 51
+Token 2: 1
+Token 3: blue,
+Token 4: 15
+Token 5: green;
+Token 6: 6
+Token 7: green,
+Token 8: 2
+Token 9: blue;
+Token 10: 5
+Token 11: blue,
+Token 12: 1
+Token 13: red,
+Token 14: 12
+Token 15: green
+nbRed: 0, nbBlue: 1, nbGreen: 15
+nbRed: 0, nbBlue: 2, nbGreen: 6
+nbRed: 1, nbBlue: 5, nbGreen: 12
+[31mGame 51 is not possible
+[0mToken 0: Game
+Token 1: 52
+Token 2: 3
+Token 3: red,
+Token 4: 15
+Token 5: green;
+Token 6: 7
+Token 7: blue,
+Token 8: 1
+Token 9: red,
+Token 10: 14
+Token 11: green;
+Token 12: 8
+Token 13: green,
+Token 14: 1
+Token 15: red,
+Token 16: 12
+Token 17: blue;
+Token 18: 1
+Token 19: red,
+Token 20: 9
+Token 21: green,
+Token 22: 7
+Token 23: blue
+nbRed: 3, nbBlue: 0, nbGreen: 15
+nbRed: 1, nbBlue: 7, nbGreen: 14
+nbRed: 1, nbBlue: 12, nbGreen: 8
+nbRed: 1, nbBlue: 7, nbGreen: 9
+[31mGame 52 is not possible
+[0mToken 0: Game
+Token 1: 53
+Token 2: 2
+Token 3: green,
+Token 4: 4
+Token 5: red;
+Token 6: 1
+Token 7: red,
+Token 8: 1
+Token 9: blue;
+Token 10: 3
+Token 11: blue,
+Token 12: 1
+Token 13: green;
+Token 14: 2
+Token 15: red,
+Token 16: 2
+Token 17: blue,
+Token 18: 2
+Token 19: green
+nbRed: 4, nbBlue: 0, nbGreen: 2
+nbRed: 1, nbBlue: 1, nbGreen: 0
+nbRed: 0, nbBlue: 3, nbGreen: 1
+nbRed: 2, nbBlue: 2, nbGreen: 2
+[32mGame 53 is possible
+[0mToken 0: Game
+Token 1: 54
+Token 2: 7
+Token 3: blue,
+Token 4: 13
+Token 5: red,
+Token 6: 7
+Token 7: green;
+Token 8: 1
+Token 9: red,
+Token 10: 2
+Token 11: green;
+Token 12: 11
+Token 13: red,
+Token 14: 10
+Token 15: green,
+Token 16: 5
+Token 17: blue;
+Token 18: 10
+Token 19: red,
+Token 20: 8
+Token 21: green,
+Token 22: 5
+Token 23: blue;
+Token 24: 8
+Token 25: green,
+Token 26: 12
+Token 27: blue,
+Token 28: 12
+Token 29: red
+nbRed: 13, nbBlue: 7, nbGreen: 7
+nbRed: 1, nbBlue: 0, nbGreen: 2
+nbRed: 11, nbBlue: 5, nbGreen: 10
+nbRed: 10, nbBlue: 5, nbGreen: 8
+nbRed: 12, nbBlue: 12, nbGreen: 8
+[31mGame 54 is not possible
+[0mToken 0: Game
+Token 1: 55
+Token 2: 18
+Token 3: red,
+Token 4: 3
+Token 5: green,
+Token 6: 5
+Token 7: blue;
+Token 8: 5
+Token 9: green,
+Token 10: 3
+Token 11: blue,
+Token 12: 7
+Token 13: red;
+Token 14: 3
+Token 15: blue,
+Token 16: 3
+Token 17: green,
+Token 18: 4
+Token 19: red
+nbRed: 18, nbBlue: 5, nbGreen: 3
+nbRed: 7, nbBlue: 3, nbGreen: 5
+nbRed: 4, nbBlue: 3, nbGreen: 3
+[31mGame 55 is not possible
+[0mToken 0: Game
+Token 1: 56
+Token 2: 14
+Token 3: red,
+Token 4: 17
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 5
+Token 9: green,
+Token 10: 13
+Token 11: red,
+Token 12: 1
+Token 13: blue;
+Token 14: 11
+Token 15: red,
+Token 16: 20
+Token 17: green
+nbRed: 14, nbBlue: 2, nbGreen: 17
+nbRed: 13, nbBlue: 1, nbGreen: 5
+nbRed: 11, nbBlue: 0, nbGreen: 20
+[31mGame 56 is not possible
+[0mToken 0: Game
+Token 1: 57
+Token 2: 3
+Token 3: red,
+Token 4: 6
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 3
+Token 9: red,
+Token 10: 2
+Token 11: green;
+Token 12: 2
+Token 13: green,
+Token 14: 5
+Token 15: red;
+Token 16: 1
+Token 17: blue,
+Token 18: 1
+Token 19: green,
+Token 20: 2
+Token 21: red
+nbRed: 3, nbBlue: 2, nbGreen: 6
+nbRed: 3, nbBlue: 0, nbGreen: 2
+nbRed: 5, nbBlue: 0, nbGreen: 2
+nbRed: 2, nbBlue: 1, nbGreen: 1
+[32mGame 57 is possible
+[0mToken 0: Game
+Token 1: 58
+Token 2: 7
+Token 3: blue,
+Token 4: 5
+Token 5: green,
+Token 6: 9
+Token 7: red;
+Token 8: 10
+Token 9: red,
+Token 10: 5
+Token 11: green,
+Token 12: 9
+Token 13: blue;
+Token 14: 2
+Token 15: blue,
+Token 16: 3
+Token 17: red,
+Token 18: 8
+Token 19: green;
+Token 20: 8
+Token 21: blue,
+Token 22: 9
+Token 23: red;
+Token 24: 7
+Token 25: red,
+Token 26: 3
+Token 27: blue,
+Token 28: 7
+Token 29: green;
+Token 30: 2
+Token 31: green,
+Token 32: 7
+Token 33: red,
+Token 34: 1
+Token 35: blue
+nbRed: 9, nbBlue: 7, nbGreen: 5
+nbRed: 10, nbBlue: 9, nbGreen: 5
+nbRed: 3, nbBlue: 2, nbGreen: 8
+nbRed: 9, nbBlue: 8, nbGreen: 0
+nbRed: 7, nbBlue: 3, nbGreen: 7
+nbRed: 7, nbBlue: 1, nbGreen: 2
+[32mGame 58 is possible
+[0mToken 0: Game
+Token 1: 59
+Token 2: 4
+Token 3: green,
+Token 4: 3
+Token 5: blue;
+Token 6: 10
+Token 7: red,
+Token 8: 4
+Token 9: green,
+Token 10: 4
+Token 11: blue;
+Token 12: 2
+Token 13: green,
+Token 14: 14
+Token 15: red,
+Token 16: 12
+Token 17: blue;
+Token 18: 1
+Token 19: blue,
+Token 20: 1
+Token 21: green,
+Token 22: 13
+Token 23: red;
+Token 24: 10
+Token 25: red,
+Token 26: 3
+Token 27: green,
+Token 28: 3
+Token 29: blue;
+Token 30: 2
+Token 31: green
+nbRed: 0, nbBlue: 3, nbGreen: 4
+nbRed: 10, nbBlue: 4, nbGreen: 4
+nbRed: 14, nbBlue: 12, nbGreen: 2
+nbRed: 13, nbBlue: 1, nbGreen: 1
+nbRed: 10, nbBlue: 3, nbGreen: 3
+nbRed: 0, nbBlue: 0, nbGreen: 2
+[31mGame 59 is not possible
+[0mToken 0: Game
+Token 1: 60
+Token 2: 9
+Token 3: red,
+Token 4: 13
+Token 5: blue;
+Token 6: 2
+Token 7: green,
+Token 8: 5
+Token 9: red,
+Token 10: 9
+Token 11: blue;
+Token 12: 3
+Token 13: green,
+Token 14: 10
+Token 15: blue
+nbRed: 9, nbBlue: 13, nbGreen: 0
+nbRed: 5, nbBlue: 9, nbGreen: 2
+nbRed: 0, nbBlue: 10, nbGreen: 3
+[32mGame 60 is possible
+[0mToken 0: Game
+Token 1: 61
+Token 2: 2
+Token 3: red,
+Token 4: 8
+Token 5: green,
+Token 6: 4
+Token 7: blue;
+Token 8: 3
+Token 9: green,
+Token 10: 2
+Token 11: red;
+Token 12: 10
+Token 13: red,
+Token 14: 9
+Token 15: green,
+Token 16: 12
+Token 17: blue;
+Token 18: 11
+Token 19: green,
+Token 20: 17
+Token 21: blue,
+Token 22: 3
+Token 23: red;
+Token 24: 7
+Token 25: green,
+Token 26: 1
+Token 27: red,
+Token 28: 14
+Token 29: blue
+nbRed: 2, nbBlue: 4, nbGreen: 8
+nbRed: 2, nbBlue: 0, nbGreen: 3
+nbRed: 10, nbBlue: 12, nbGreen: 9
+nbRed: 3, nbBlue: 17, nbGreen: 11
+nbRed: 1, nbBlue: 14, nbGreen: 7
+[31mGame 61 is not possible
+[0mToken 0: Game
+Token 1: 62
+Token 2: 1
+Token 3: green,
+Token 4: 5
+Token 5: red,
+Token 6: 13
+Token 7: blue;
+Token 8: 5
+Token 9: blue,
+Token 10: 1
+Token 11: green,
+Token 12: 8
+Token 13: red;
+Token 14: 2
+Token 15: green,
+Token 16: 8
+Token 17: blue,
+Token 18: 3
+Token 19: red;
+Token 20: 1
+Token 21: green,
+Token 22: 8
+Token 23: red
+nbRed: 5, nbBlue: 13, nbGreen: 1
+nbRed: 8, nbBlue: 5, nbGreen: 1
+nbRed: 3, nbBlue: 8, nbGreen: 2
+nbRed: 8, nbBlue: 0, nbGreen: 1
+[32mGame 62 is possible
+[0mToken 0: Game
+Token 1: 63
+Token 2: 8
+Token 3: green,
+Token 4: 15
+Token 5: red,
+Token 6: 2
+Token 7: blue;
+Token 8: 4
+Token 9: blue,
+Token 10: 3
+Token 11: red,
+Token 12: 12
+Token 13: green;
+Token 14: 4
+Token 15: green,
+Token 16: 1
+Token 17: blue,
+Token 18: 17
+Token 19: red;
+Token 20: 9
+Token 21: green,
+Token 22: 18
+Token 23: red,
+Token 24: 4
+Token 25: blue
+nbRed: 15, nbBlue: 2, nbGreen: 8
+nbRed: 3, nbBlue: 4, nbGreen: 12
+nbRed: 17, nbBlue: 1, nbGreen: 4
+nbRed: 18, nbBlue: 4, nbGreen: 9
+[31mGame 63 is not possible
+[0mToken 0: Game
+Token 1: 64
+Token 2: 7
+Token 3: blue,
+Token 4: 17
+Token 5: red,
+Token 6: 17
+Token 7: green;
+Token 8: 3
+Token 9: blue,
+Token 10: 4
+Token 11: green,
+Token 12: 3
+Token 13: red;
+Token 14: 4
+Token 15: red,
+Token 16: 19
+Token 17: green,
+Token 18: 1
+Token 19: blue;
+Token 20: 11
+Token 21: blue,
+Token 22: 14
+Token 23: red;
+Token 24: 4
+Token 25: blue,
+Token 26: 19
+Token 27: green,
+Token 28: 7
+Token 29: red;
+Token 30: 1
+Token 31: red,
+Token 32: 10
+Token 33: green,
+Token 34: 11
+Token 35: blue
+nbRed: 17, nbBlue: 7, nbGreen: 17
+nbRed: 3, nbBlue: 3, nbGreen: 4
+nbRed: 4, nbBlue: 1, nbGreen: 19
+nbRed: 14, nbBlue: 11, nbGreen: 0
+nbRed: 7, nbBlue: 4, nbGreen: 19
+nbRed: 1, nbBlue: 11, nbGreen: 10
+[31mGame 64 is not possible
+[0mToken 0: Game
+Token 1: 65
+Token 2: 1
+Token 3: blue,
+Token 4: 17
+Token 5: red,
+Token 6: 5
+Token 7: green;
+Token 8: 17
+Token 9: red,
+Token 10: 3
+Token 11: blue,
+Token 12: 2
+Token 13: green;
+Token 14: 10
+Token 15: blue,
+Token 16: 9
+Token 17: green
+nbRed: 17, nbBlue: 1, nbGreen: 5
+nbRed: 17, nbBlue: 3, nbGreen: 2
+nbRed: 0, nbBlue: 10, nbGreen: 9
+[31mGame 65 is not possible
+[0mToken 0: Game
+Token 1: 66
+Token 2: 5
+Token 3: blue,
+Token 4: 6
+Token 5: red;
+Token 6: 8
+Token 7: red,
+Token 8: 2
+Token 9: blue,
+Token 10: 1
+Token 11: green;
+Token 12: 2
+Token 13: green,
+Token 14: 3
+Token 15: blue;
+Token 16: 8
+Token 17: blue,
+Token 18: 10
+Token 19: red;
+Token 20: 1
+Token 21: green,
+Token 22: 2
+Token 23: red,
+Token 24: 5
+Token 25: blue;
+Token 26: 1
+Token 27: red,
+Token 28: 3
+Token 29: blue
+nbRed: 6, nbBlue: 5, nbGreen: 0
+nbRed: 8, nbBlue: 2, nbGreen: 1
+nbRed: 0, nbBlue: 3, nbGreen: 2
+nbRed: 10, nbBlue: 8, nbGreen: 0
+nbRed: 2, nbBlue: 5, nbGreen: 1
+nbRed: 1, nbBlue: 3, nbGreen: 0
+[32mGame 66 is possible
+[0mToken 0: Game
+Token 1: 67
+Token 2: 12
+Token 3: green,
+Token 4: 16
+Token 5: blue,
+Token 6: 12
+Token 7: red;
+Token 8: 15
+Token 9: red,
+Token 10: 1
+Token 11: blue,
+Token 12: 3
+Token 13: green;
+Token 14: 10
+Token 15: red,
+Token 16: 3
+Token 17: green,
+Token 18: 10
+Token 19: blue;
+Token 20: 2
+Token 21: blue,
+Token 22: 6
+Token 23: green,
+Token 24: 6
+Token 25: red;
+Token 26: 9
+Token 27: red,
+Token 28: 8
+Token 29: blue,
+Token 30: 7
+Token 31: green
+nbRed: 12, nbBlue: 16, nbGreen: 12
+nbRed: 15, nbBlue: 1, nbGreen: 3
+nbRed: 10, nbBlue: 10, nbGreen: 3
+nbRed: 6, nbBlue: 2, nbGreen: 6
+nbRed: 9, nbBlue: 8, nbGreen: 7
+[31mGame 67 is not possible
+[0mToken 0: Game
+Token 1: 68
+Token 2: 10
+Token 3: red,
+Token 4: 7
+Token 5: blue;
+Token 6: 12
+Token 7: blue,
+Token 8: 9
+Token 9: red;
+Token 10: 12
+Token 11: blue,
+Token 12: 9
+Token 13: red,
+Token 14: 2
+Token 15: green
+nbRed: 10, nbBlue: 7, nbGreen: 0
+nbRed: 9, nbBlue: 12, nbGreen: 0
+nbRed: 9, nbBlue: 12, nbGreen: 2
+[32mGame 68 is possible
+[0mToken 0: Game
+Token 1: 69
+Token 2: 14
+Token 3: blue,
+Token 4: 3
+Token 5: red,
+Token 6: 3
+Token 7: green;
+Token 8: 7
+Token 9: green,
+Token 10: 7
+Token 11: red,
+Token 12: 2
+Token 13: blue;
+Token 14: 8
+Token 15: blue,
+Token 16: 4
+Token 17: green,
+Token 18: 8
+Token 19: red;
+Token 20: 6
+Token 21: blue,
+Token 22: 14
+Token 23: red,
+Token 24: 3
+Token 25: green
+nbRed: 3, nbBlue: 14, nbGreen: 3
+nbRed: 7, nbBlue: 2, nbGreen: 7
+nbRed: 8, nbBlue: 8, nbGreen: 4
+nbRed: 14, nbBlue: 6, nbGreen: 3
+[31mGame 69 is not possible
+[0mToken 0: Game
+Token 1: 70
+Token 2: 7
+Token 3: blue,
+Token 4: 6
+Token 5: green,
+Token 6: 2
+Token 7: red;
+Token 8: 2
+Token 9: red,
+Token 10: 4
+Token 11: blue,
+Token 12: 4
+Token 13: green;
+Token 14: 2
+Token 15: red,
+Token 16: 5
+Token 17: blue,
+Token 18: 3
+Token 19: green;
+Token 20: 6
+Token 21: green,
+Token 22: 2
+Token 23: blue;
+Token 24: 5
+Token 25: blue,
+Token 26: 2
+Token 27: red,
+Token 28: 2
+Token 29: green
+nbRed: 2, nbBlue: 7, nbGreen: 6
+nbRed: 2, nbBlue: 4, nbGreen: 4
+nbRed: 2, nbBlue: 5, nbGreen: 3
+nbRed: 0, nbBlue: 2, nbGreen: 6
+nbRed: 2, nbBlue: 5, nbGreen: 2
+[32mGame 70 is possible
+[0mToken 0: Game
+Token 1: 71
+Token 2: 7
+Token 3: green,
+Token 4: 15
+Token 5: blue,
+Token 6: 3
+Token 7: red;
+Token 8: 15
+Token 9: blue,
+Token 10: 15
+Token 11: red,
+Token 12: 2
+Token 13: green;
+Token 14: 10
+Token 15: red,
+Token 16: 9
+Token 17: blue;
+Token 18: 6
+Token 19: green,
+Token 20: 20
+Token 21: blue,
+Token 22: 11
+Token 23: red;
+Token 24: 12
+Token 25: blue,
+Token 26: 3
+Token 27: green,
+Token 28: 7
+Token 29: red;
+Token 30: 1
+Token 31: red,
+Token 32: 7
+Token 33: blue
+nbRed: 3, nbBlue: 15, nbGreen: 7
+nbRed: 15, nbBlue: 15, nbGreen: 2
+nbRed: 10, nbBlue: 9, nbGreen: 0
+nbRed: 11, nbBlue: 20, nbGreen: 6
+nbRed: 7, nbBlue: 12, nbGreen: 3
+nbRed: 1, nbBlue: 7, nbGreen: 0
+[31mGame 71 is not possible
+[0mToken 0: Game
+Token 1: 72
+Token 2: 2
+Token 3: green,
+Token 4: 9
+Token 5: blue,
+Token 6: 7
+Token 7: red;
+Token 8: 5
+Token 9: green,
+Token 10: 3
+Token 11: blue,
+Token 12: 5
+Token 13: red;
+Token 14: 10
+Token 15: blue,
+Token 16: 8
+Token 17: red,
+Token 18: 7
+Token 19: green
+nbRed: 7, nbBlue: 9, nbGreen: 2
+nbRed: 5, nbBlue: 3, nbGreen: 5
+nbRed: 8, nbBlue: 10, nbGreen: 7
+[32mGame 72 is possible
+[0mToken 0: Game
+Token 1: 73
+Token 2: 18
+Token 3: blue,
+Token 4: 5
+Token 5: red,
+Token 6: 1
+Token 7: green;
+Token 8: 18
+Token 9: blue,
+Token 10: 3
+Token 11: red,
+Token 12: 9
+Token 13: green;
+Token 14: 2
+Token 15: red,
+Token 16: 4
+Token 17: blue,
+Token 18: 9
+Token 19: green;
+Token 20: 5
+Token 21: blue,
+Token 22: 5
+Token 23: red;
+Token 24: 2
+Token 25: blue,
+Token 26: 10
+Token 27: green,
+Token 28: 6
+Token 29: red
+nbRed: 5, nbBlue: 18, nbGreen: 1
+nbRed: 3, nbBlue: 18, nbGreen: 9
+nbRed: 2, nbBlue: 4, nbGreen: 9
+nbRed: 5, nbBlue: 5, nbGreen: 0
+nbRed: 6, nbBlue: 2, nbGreen: 10
+[31mGame 73 is not possible
+[0mToken 0: Game
+Token 1: 74
+Token 2: 1
+Token 3: blue,
+Token 4: 10
+Token 5: green,
+Token 6: 5
+Token 7: red;
+Token 8: 4
+Token 9: green,
+Token 10: 12
+Token 11: blue,
+Token 12: 6
+Token 13: red;
+Token 14: 7
+Token 15: red,
+Token 16: 13
+Token 17: green,
+Token 18: 3
+Token 19: blue;
+Token 20: 5
+Token 21: blue,
+Token 22: 8
+Token 23: green,
+Token 24: 4
+Token 25: red
+nbRed: 5, nbBlue: 1, nbGreen: 10
+nbRed: 6, nbBlue: 12, nbGreen: 4
+nbRed: 7, nbBlue: 3, nbGreen: 13
+nbRed: 4, nbBlue: 5, nbGreen: 8
+[32mGame 74 is possible
+[0mToken 0: Game
+Token 1: 75
+Token 2: 4
+Token 3: red,
+Token 4: 2
+Token 5: blue,
+Token 6: 5
+Token 7: green;
+Token 8: 2
+Token 9: blue,
+Token 10: 7
+Token 11: red,
+Token 12: 4
+Token 13: green;
+Token 14: 2
+Token 15: blue,
+Token 16: 4
+Token 17: green,
+Token 18: 3
+Token 19: red;
+Token 20: 12
+Token 21: green,
+Token 22: 2
+Token 23: blue;
+Token 24: 10
+Token 25: green,
+Token 26: 1
+Token 27: blue,
+Token 28: 2
+Token 29: red
+nbRed: 4, nbBlue: 2, nbGreen: 5
+nbRed: 7, nbBlue: 2, nbGreen: 4
+nbRed: 3, nbBlue: 2, nbGreen: 4
+nbRed: 0, nbBlue: 2, nbGreen: 12
+nbRed: 2, nbBlue: 1, nbGreen: 10
+[32mGame 75 is possible
+[0mToken 0: Game
+Token 1: 76
+Token 2: 8
+Token 3: green,
+Token 4: 6
+Token 5: blue,
+Token 6: 5
+Token 7: red;
+Token 8: 1
+Token 9: red,
+Token 10: 2
+Token 11: blue,
+Token 12: 9
+Token 13: green;
+Token 14: 7
+Token 15: red,
+Token 16: 9
+Token 17: green;
+Token 18: 5
+Token 19: green,
+Token 20: 1
+Token 21: blue,
+Token 22: 11
+Token 23: red
+nbRed: 5, nbBlue: 6, nbGreen: 8
+nbRed: 1, nbBlue: 2, nbGreen: 9
+nbRed: 7, nbBlue: 0, nbGreen: 9
+nbRed: 11, nbBlue: 1, nbGreen: 5
+[32mGame 76 is possible
+[0mToken 0: Game
+Token 1: 77
+Token 2: 3
+Token 3: blue,
+Token 4: 10
+Token 5: red,
+Token 6: 9
+Token 7: green;
+Token 8: 7
+Token 9: blue,
+Token 10: 6
+Token 11: red,
+Token 12: 4
+Token 13: green;
+Token 14: 4
+Token 15: red,
+Token 16: 1
+Token 17: green,
+Token 18: 8
+Token 19: blue
+nbRed: 10, nbBlue: 3, nbGreen: 9
+nbRed: 6, nbBlue: 7, nbGreen: 4
+nbRed: 4, nbBlue: 8, nbGreen: 1
+[32mGame 77 is possible
+[0mToken 0: Game
+Token 1: 78
+Token 2: 2
+Token 3: blue,
+Token 4: 1
+Token 5: red,
+Token 6: 14
+Token 7: green;
+Token 8: 11
+Token 9: green,
+Token 10: 1
+Token 11: blue;
+Token 12: 15
+Token 13: green,
+Token 14: 1
+Token 15: red
+nbRed: 1, nbBlue: 2, nbGreen: 14
+nbRed: 0, nbBlue: 1, nbGreen: 11
+nbRed: 1, nbBlue: 0, nbGreen: 15
+[31mGame 78 is not possible
+[0mToken 0: Game
+Token 1: 79
+Token 2: 3
+Token 3: green,
+Token 4: 17
+Token 5: blue,
+Token 6: 1
+Token 7: red;
+Token 8: 3
+Token 9: red,
+Token 10: 2
+Token 11: blue,
+Token 12: 10
+Token 13: green;
+Token 14: 13
+Token 15: blue,
+Token 16: 11
+Token 17: green,
+Token 18: 5
+Token 19: red;
+Token 20: 16
+Token 21: blue,
+Token 22: 2
+Token 23: green,
+Token 24: 16
+Token 25: red;
+Token 26: 11
+Token 27: green,
+Token 28: 1
+Token 29: blue,
+Token 30: 14
+Token 31: red
+nbRed: 1, nbBlue: 17, nbGreen: 3
+nbRed: 3, nbBlue: 2, nbGreen: 10
+nbRed: 5, nbBlue: 13, nbGreen: 11
+nbRed: 16, nbBlue: 16, nbGreen: 2
+nbRed: 14, nbBlue: 1, nbGreen: 11
+[31mGame 79 is not possible
+[0mToken 0: Game
+Token 1: 80
+Token 2: 7
+Token 3: red,
+Token 4: 10
+Token 5: blue,
+Token 6: 5
+Token 7: green;
+Token 8: 6
+Token 9: blue,
+Token 10: 6
+Token 11: green,
+Token 12: 8
+Token 13: red;
+Token 14: 6
+Token 15: blue,
+Token 16: 3
+Token 17: green,
+Token 18: 5
+Token 19: red
+nbRed: 7, nbBlue: 10, nbGreen: 5
+nbRed: 8, nbBlue: 6, nbGreen: 6
+nbRed: 5, nbBlue: 6, nbGreen: 3
+[32mGame 80 is possible
+[0mToken 0: Game
+Token 1: 81
+Token 2: 1
+Token 3: blue,
+Token 4: 14
+Token 5: red,
+Token 6: 6
+Token 7: green;
+Token 8: 1
+Token 9: red,
+Token 10: 13
+Token 11: blue,
+Token 12: 12
+Token 13: green;
+Token 14: 2
+Token 15: green,
+Token 16: 15
+Token 17: red,
+Token 18: 15
+Token 19: blue
+nbRed: 14, nbBlue: 1, nbGreen: 6
+nbRed: 1, nbBlue: 13, nbGreen: 12
+nbRed: 15, nbBlue: 15, nbGreen: 2
+[31mGame 81 is not possible
+[0mToken 0: [
+Error: Game not foundAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[32mGame 81 is possible
+[0mToken 0: Game
+Token 1: 83
+Token 2: 19
+Token 3: red,
+Token 4: 15
+Token 5: green,
+Token 6: 2
+Token 7: blue;
+Token 8: 17
+Token 9: red,
+Token 10: 4
+Token 11: green,
+Token 12: 1
+Token 13: blue;
+Token 14: 13
+Token 15: green,
+Token 16: 18
+Token 17: red
+nbRed: 19, nbBlue: 2, nbGreen: 15
+nbRed: 17, nbBlue: 1, nbGreen: 4
+nbRed: 18, nbBlue: 0, nbGreen: 13
+[31mGame 83 is not possible
+[0mToken 0: Game
+Token 1: 84
+Token 2: 9
+Token 3: green,
+Token 4: 14
+Token 5: red;
+Token 6: 11
+Token 7: green,
+Token 8: 14
+Token 9: red,
+Token 10: 1
+Token 11: blue;
+Token 12: 1
+Token 13: blue,
+Token 14: 2
+Token 15: red,
+Token 16: 3
+Token 17: green;
+Token 18: 13
+Token 19: green,
+Token 20: 10
+Token 21: red;
+Token 22: 1
+Token 23: green,
+Token 24: 5
+Token 25: red
+nbRed: 14, nbBlue: 0, nbGreen: 9
+nbRed: 14, nbBlue: 1, nbGreen: 11
+nbRed: 2, nbBlue: 1, nbGreen: 3
+nbRed: 10, nbBlue: 0, nbGreen: 13
+nbRed: 5, nbBlue: 0, nbGreen: 1
+[31mGame 84 is not possible
+[0mToken 0: Game
+Token 1: 85
+Token 2: 4
+Token 3: red,
+Token 4: 2
+Token 5: green,
+Token 6: 11
+Token 7: blue;
+Token 8: 8
+Token 9: blue,
+Token 10: 3
+Token 11: red;
+Token 12: 4
+Token 13: red,
+Token 14: 1
+Token 15: blue,
+Token 16: 5
+Token 17: green;
+Token 18: 2
+Token 19: red,
+Token 20: 3
+Token 21: green;
+Token 22: 1
+Token 23: green,
+Token 24: 8
+Token 25: red,
+Token 26: 12
+Token 27: blue
+nbRed: 4, nbBlue: 11, nbGreen: 2
+nbRed: 3, nbBlue: 8, nbGreen: 0
+nbRed: 4, nbBlue: 1, nbGreen: 5
+nbRed: 2, nbBlue: 0, nbGreen: 3
+nbRed: 8, nbBlue: 12, nbGreen: 1
+[32mGame 85 is possible
+[0mToken 0: Game
+Token 1: 86
+Token 2: 5
+Token 3: blue,
+Token 4: 1
+Token 5: red;
+Token 6: 8
+Token 7: blue;
+Token 8: 2
+Token 9: red,
+Token 10: 1
+Token 11: green,
+Token 12: 12
+Token 13: blue;
+Token 14: 12
+Token 15: blue,
+Token 16: 2
+Token 17: red
+nbRed: 1, nbBlue: 5, nbGreen: 0
+nbRed: 0, nbBlue: 8, nbGreen: 0
+nbRed: 2, nbBlue: 12, nbGreen: 1
+nbRed: 2, nbBlue: 12, nbGreen: 0
+[32mGame 86 is possible
+[0mToken 0: Game
+Token 1: 87
+Token 2: 3
+Token 3: red,
+Token 4: 10
+Token 5: green,
+Token 6: 3
+Token 7: blue;
+Token 8: 13
+Token 9: blue,
+Token 10: 6
+Token 11: red,
+Token 12: 2
+Token 13: green;
+Token 14: 1
+Token 15: green,
+Token 16: 2
+Token 17: red,
+Token 18: 10
+Token 19: blue
+nbRed: 3, nbBlue: 3, nbGreen: 10
+nbRed: 6, nbBlue: 13, nbGreen: 2
+nbRed: 2, nbBlue: 10, nbGreen: 1
+[32mGame 87 is possible
+[0mToken 0: Game
+Token 1: 88
+Token 2: 10
+Token 3: red,
+Token 4: 3
+Token 5: green,
+Token 6: 8
+Token 7: blue;
+Token 8: 3
+Token 9: red,
+Token 10: 18
+Token 11: blue,
+Token 12: 2
+Token 13: green;
+Token 14: 3
+Token 15: green,
+Token 16: 15
+Token 17: blue;
+Token 18: 15
+Token 19: green,
+Token 20: 16
+Token 21: blue,
+Token 22: 8
+Token 23: red
+nbRed: 10, nbBlue: 8, nbGreen: 3
+nbRed: 3, nbBlue: 18, nbGreen: 2
+nbRed: 0, nbBlue: 15, nbGreen: 3
+nbRed: 8, nbBlue: 16, nbGreen: 15
+[31mGame 88 is not possible
+[0mToken 0: Game
+Token 1: 89
+Token 2: 10
+Token 3: blue,
+Token 4: 1
+Token 5: red;
+Token 6: 4
+Token 7: green,
+Token 8: 9
+Token 9: red,
+Token 10: 13
+Token 11: blue;
+Token 12: 10
+Token 13: red,
+Token 14: 3
+Token 15: green,
+Token 16: 12
+Token 17: blue;
+Token 18: 2
+Token 19: green,
+Token 20: 1
+Token 21: red,
+Token 22: 16
+Token 23: blue;
+Token 24: 10
+Token 25: blue,
+Token 26: 1
+Token 27: red,
+Token 28: 6
+Token 29: green
+nbRed: 1, nbBlue: 10, nbGreen: 0
+nbRed: 9, nbBlue: 13, nbGreen: 4
+nbRed: 10, nbBlue: 12, nbGreen: 3
+nbRed: 1, nbBlue: 16, nbGreen: 2
+nbRed: 1, nbBlue: 10, nbGreen: 6
+[31mGame 89 is not possible
+[0mToken 0: Game
+Token 1: 90
+Token 2: 4
+Token 3: red,
+Token 4: 2
+Token 5: blue,
+Token 6: 15
+Token 7: green;
+Token 8: 5
+Token 9: red,
+Token 10: 1
+Token 11: blue,
+Token 12: 12
+Token 13: green;
+Token 14: 3
+Token 15: blue,
+Token 16: 3
+Token 17: red,
+Token 18: 7
+Token 19: green;
+Token 20: 4
+Token 21: blue,
+Token 22: 3
+Token 23: red,
+Token 24: 7
+Token 25: green;
+Token 26: 1
+Token 27: red,
+Token 28: 2
+Token 29: green,
+Token 30: 1
+Token 31: blue;
+Token 32: 1
+Token 33: blue,
+Token 34: 4
+Token 35: green,
+Token 36: 3
+Token 37: red
+nbRed: 4, nbBlue: 2, nbGreen: 15
+nbRed: 5, nbBlue: 1, nbGreen: 12
+nbRed: 3, nbBlue: 3, nbGreen: 7
+nbRed: 3, nbBlue: 4, nbGreen: 7
+nbRed: 1, nbBlue: 1, nbGreen: 2
+nbRed: 3, nbBlue: 1, nbGreen: 4
+[31mGame 90 is not possible
+[0mToken 0: Game
+Token 1: 91
+Token 2: 16
+Token 3: red,
+Token 4: 10
+Token 5: blue,
+Token 6: 1
+Token 7: green;
+Token 8: 13
+Token 9: green,
+Token 10: 13
+Token 11: red,
+Token 12: 19
+Token 13: blue;
+Token 14: 11
+Token 15: blue,
+Token 16: 12
+Token 17: green,
+Token 18: 2
+Token 19: red
+nbRed: 16, nbBlue: 10, nbGreen: 1
+nbRed: 13, nbBlue: 19, nbGreen: 13
+nbRed: 2, nbBlue: 11, nbGreen: 12
+[31mGame 91 is not possible
+[0mToken 0: Game
+Token 1: 92
+Token 2: 8
+Token 3: blue,
+Token 4: 4
+Token 5: green,
+Token 6: 5
+Token 7: red;
+Token 8: 7
+Token 9: blue,
+Token 10: 4
+Token 11: red;
+Token 12: 2
+Token 13: green,
+Token 14: 15
+Token 15: blue;
+Token 16: 16
+Token 17: blue,
+Token 18: 4
+Token 19: red;
+Token 20: 1
+Token 21: red,
+Token 22: 7
+Token 23: green,
+Token 24: 16
+Token 25: blue;
+Token 26: 11
+Token 27: blue,
+Token 28: 1
+Token 29: red,
+Token 30: 3
+Token 31: green
+nbRed: 5, nbBlue: 8, nbGreen: 4
+nbRed: 4, nbBlue: 7, nbGreen: 0
+nbRed: 0, nbBlue: 15, nbGreen: 2
+nbRed: 4, nbBlue: 16, nbGreen: 0
+nbRed: 1, nbBlue: 16, nbGreen: 7
+nbRed: 1, nbBlue: 11, nbGreen: 3
+[31mGame 92 is not possible
+[0mToken 0: Game
+Token 1: 93
+Token 2: 12
+Token 3: green,
+Token 4: 2
+Token 5: blue,
+Token 6: 2
+Token 7: red;
+Token 8: 8
+Token 9: red,
+Token 10: 16
+Token 11: green,
+Token 12: 8
+Token 13: blue;
+Token 14: 15
+Token 15: red,
+Token 16: 4
+Token 17: blue,
+Token 18: 7
+Token 19: green;
+Token 20: 1
+Token 21: red,
+Token 22: 4
+Token 23: blue,
+Token 24: 15
+Token 25: green;
+Token 26: 13
+Token 27: green,
+Token 28: 5
+Token 29: red,
+Token 30: 4
+Token 31: blue;
+Token 32: 5
+Token 33: green,
+Token 34: 8
+Token 35: blue,
+Token 36: 12
+Token 37: red
+nbRed: 2, nbBlue: 2, nbGreen: 12
+nbRed: 8, nbBlue: 8, nbGreen: 16
+nbRed: 15, nbBlue: 4, nbGreen: 7
+nbRed: 1, nbBlue: 4, nbGreen: 15
+nbRed: 5, nbBlue: 4, nbGreen: 13
+nbRed: 12, nbBlue: 8, nbGreen: 5
+[31mGame 93 is not possible
+[0mToken 0: Game
+Token 1: 94
+Token 2: 13
+Token 3: green,
+Token 4: 10
+Token 5: red;
+Token 6: 11
+Token 7: red,
+Token 8: 19
+Token 9: green,
+Token 10: 1
+Token 11: blue;
+Token 12: 1
+Token 13: blue,
+Token 14: 10
+Token 15: red,
+Token 16: 12
+Token 17: green;
+Token 18: 18
+Token 19: green,
+Token 20: 9
+Token 21: red,
+Token 22: 1
+Token 23: blue;
+Token 24: 8
+Token 25: green,
+Token 26: 1
+Token 27: red
+nbRed: 10, nbBlue: 0, nbGreen: 13
+nbRed: 11, nbBlue: 1, nbGreen: 19
+nbRed: 10, nbBlue: 1, nbGreen: 12
+nbRed: 9, nbBlue: 1, nbGreen: 18
+nbRed: 1, nbBlue: 0, nbGreen: 8
+[31mGame 94 is not possible
+[0mToken 0: Game
+Token 1: 95
+Token 2: 3
+Token 3: green,
+Token 4: 4
+Token 5: blue;
+Token 6: 2
+Token 7: red,
+Token 8: 2
+Token 9: green,
+Token 10: 2
+Token 11: blue;
+Token 12: 7
+Token 13: red,
+Token 14: 3
+Token 15: green
+nbRed: 0, nbBlue: 4, nbGreen: 3
+nbRed: 2, nbBlue: 2, nbGreen: 2
+nbRed: 7, nbBlue: 0, nbGreen: 3
+[32mGame 95 is possible
+[0mToken 0: Game
+Token 1: 96
+Token 2: 5
+Token 3: red,
+Token 4: 7
+Token 5: green;
+Token 6: 4
+Token 7: blue,
+Token 8: 14
+Token 9: green,
+Token 10: 10
+Token 11: red;
+Token 12: 13
+Token 13: green;
+Token 14: 13
+Token 15: green,
+Token 16: 3
+Token 17: blue;
+Token 18: 13
+Token 19: green,
+Token 20: 1
+Token 21: red,
+Token 22: 3
+Token 23: blue;
+Token 24: 12
+Token 25: red,
+Token 26: 1
+Token 27: green
+nbRed: 5, nbBlue: 0, nbGreen: 7
+nbRed: 10, nbBlue: 4, nbGreen: 14
+nbRed: 0, nbBlue: 0, nbGreen: 13
+nbRed: 0, nbBlue: 3, nbGreen: 13
+nbRed: 1, nbBlue: 3, nbGreen: 13
+nbRed: 12, nbBlue: 0, nbGreen: 1
+[31mGame 96 is not possible
+[0mToken 0: Game
+Token 1: 97
+Token 2: 2
+Token 3: green,
+Token 4: 1
+Token 5: blue;
+Token 6: 9
+Token 7: red;
+Token 8: 4
+Token 9: blue,
+Token 10: 8
+Token 11: red;
+Token 12: 4
+Token 13: green,
+Token 14: 1
+Token 15: red,
+Token 16: 14
+Token 17: blue;
+Token 18: 2
+Token 19: green,
+Token 20: 9
+Token 21: blue;
+Token 22: 1
+Token 23: red,
+Token 24: 6
+Token 25: blue,
+Token 26: 2
+Token 27: green
+nbRed: 0, nbBlue: 1, nbGreen: 2
+nbRed: 9, nbBlue: 0, nbGreen: 0
+nbRed: 8, nbBlue: 4, nbGreen: 0
+nbRed: 1, nbBlue: 14, nbGreen: 4
+nbRed: 0, nbBlue: 9, nbGreen: 2
+nbRed: 1, nbBlue: 6, nbGreen: 2
+[32mGame 97 is possible
+[0mToken 0: Game
+Token 1: 98
+Token 2: 12
+Token 3: green,
+Token 4: 9
+Token 5: blue,
+Token 6: 13
+Token 7: red;
+Token 8: 6
+Token 9: red,
+Token 10: 7
+Token 11: blue;
+Token 12: 2
+Token 13: blue,
+Token 14: 2
+Token 15: green
+nbRed: 13, nbBlue: 9, nbGreen: 12
+nbRed: 6, nbBlue: 7, nbGreen: 0
+nbRed: 0, nbBlue: 2, nbGreen: 2
+[31mGame 98 is not possible
+[0mToken 0: Game
+Token 1: 99
+Token 2: 9
+Token 3: red,
+Token 4: 3
+Token 5: green,
+Token 6: 10
+Token 7: blue;
+Token 8: 10
+Token 9: red,
+Token 10: 10
+Token 11: blue,
+Token 12: 4
+Token 13: green;
+Token 14: 2
+Token 15: green,
+Token 16: 15
+Token 17: blue,
+Token 18: 3
+Token 19: red;
+Token 20: 12
+Token 21: blue,
+Token 22: 4
+Token 23: red
+nbRed: 9, nbBlue: 10, nbGreen: 3
+nbRed: 10, nbBlue: 10, nbGreen: 4
+nbRed: 3, nbBlue: 15, nbGreen: 2
+nbRed: 4, nbBlue: 12, nbGreen: 0
+[31mGame 99 is not possible
+[0mToken 0: Game
+Token 1: 100
+Token 2: 15
+Token 3: blue,
+Token 4: 6
+Token 5: red;
+Token 6: 1
+Token 7: green,
+Token 8: 2
+Token 9: red;
+Token 10: 12
+Token 11: blue,
+Token 12: 8
+Token 13: green,
+Token 14: 1
+Token 15: red;
+Token 16: 1
+Token 17: red,
+Token 18: 7
+Token 19: blue
+nbRed: 6, nbBlue: 15, nbGreen: 0
+nbRed: 2, nbBlue: 0, nbGreen: 1
+nbRed: 1, nbBlue: 12, nbGreen: 8
+nbRed: 1, nbBlue: 7, nbGreen: 0
+[31mGame 100 is not possible
+[0m-----------------[sumOfIds: 2085]------------------
