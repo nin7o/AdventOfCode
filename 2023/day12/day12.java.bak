@@ -1,0 +1,183 @@
+import java.io.File;
+import java.util.Scanner;
+
+public class day12 {
+
+    public static final int SIZE = 250;
+
+    public static void main(String[] args){
+        try {
+
+            File file = new File("test");
+            Scanner sc = new Scanner(file);
+
+            int springNumber = 1;
+            int sumOfMatches = 0;
+            while (sc.hasNextLine()) {
+                String line = sc.nextLine();
+                
+                String[] parts = line.split(" ");
+                char[] springstemp = parts[0].toCharArray();
+                char[] springs = new char[springstemp.length * 5];
+
+                //springs is springstemp repeated 5 times
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < springstemp.length; j++) {
+                        springs[i * springstemp.length + j] = springstemp[j];
+                    }
+                }
+
+                String[] rulesStr = parts[1].split(",");
+                int[] rulestmp = new int[rulesStr.length];
+                for (int i = 0; i < rulesStr.length; i++) {
+                    rulestmp[i] = Integer.parseInt(rulesStr[i]);
+                }
+
+                int[] rules = new int[rulestmp.length * 5];
+
+                //rules is rulestmp repeated 5 times
+
+                for (int i = 0; i < 5; i++) {
+                    for (int j = 0; j < rulestmp.length; j++) {
+                        rules[i * rulestmp.length + j] = rulestmp[j];
+                    }
+                }
+
+                // la on va bruteforce comme un foundigue je veux pas réfléchir
+
+                int numberOfUnkown = 0;
+                for (int i = 0; i < springs.length; i++) {
+                    if (springs[i] == '?') {
+                        numberOfUnkown++;
+                    }
+                }
+
+                int numberOfPossibilities = (int) Math.pow(2, numberOfUnkown);
+                System.out.println("There are " + numberOfPossibilities + " possibilities");
+
+                //create all possibilities : each ? can be a # or a .
+                char[][] possibilities = new char[numberOfPossibilities][springs.length];
+
+                for (int i = 0; i < numberOfPossibilities; i++) {
+                    String binary = Integer.toBinaryString(i);
+                    char[] binaryArray = binary.toCharArray();
+                    int binaryArrayIndex = binaryArray.length - 1;
+                    for (int j = springs.length - 1; j >= 0; j--) {
+                        
+                        if (springs[j] == '?') {
+                            if (binaryArrayIndex >= 0) {
+                                possibilities[i][j] = binaryArray[binaryArrayIndex];
+                                binaryArrayIndex--;
+                            } else {
+                                possibilities[i][j] = '0';
+                            }
+                        } else {
+                            possibilities[i][j] = springs[j];
+                        }
+                    }
+                }
+
+                //replace 0 and 1 by # and .
+
+                for (int i = 0; i < numberOfPossibilities; i++) {
+                    for (int j = 0; j < springs.length; j++) {
+                        if (possibilities[i][j] == '0') {
+                            possibilities[i][j] = '.';
+                        } else if (possibilities[i][j] == '1') {
+                            possibilities[i][j] = '#';
+                        }
+                    }
+                }
+
+                //check if each possibility matches the rules
+                int numberOfMatches = 0;
+                for (int i = 0; i < numberOfPossibilities; i++) {
+                    if (isMatch(possibilities[i], rules, springNumber)) {
+                        numberOfMatches++;
+                    }
+                }
+
+                System.out.print("The springs ");
+                for (int i = 0; i < springs.length; i++) {
+                    System.out.print(springs[i]);
+                }
+
+                System.out.println(" have " + numberOfMatches + " matches");
+
+                System.out.println("------------------------------------");
+
+                sumOfMatches += numberOfMatches;
+                springNumber++;
+
+            }
+
+            System.out.println("The sum of matches is " + sumOfMatches);
+
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    public static boolean isMatch(char[] springs, int[] rules, int springNumber) {
+        boolean previousSpring = false;
+
+        int[] rulesFound = new int[SIZE];
+        int currentSpringStreak = 0;
+        int currentRule = 0;
+
+        for (int i = 0; i < springs.length; i++) {
+            if (springs[i] == '#') {
+                if (previousSpring) {
+                    currentSpringStreak++;
+                } else {
+                    currentSpringStreak = 1;
+                }
+                previousSpring = true;
+            } else {
+                if (previousSpring) {
+                    if (currentSpringStreak > 0) {
+                        rulesFound[currentRule] = currentSpringStreak;
+                        currentRule++;
+                    }
+                }
+                currentSpringStreak = 0;
+                previousSpring = false;
+            }
+
+
+        }
+
+        if (currentSpringStreak > 0) {
+            rulesFound[currentRule] = currentSpringStreak;
+        }
+
+        boolean match = true;
+        for (int i = 0; i < rules.length; i++) {
+            if (rules[i] != rulesFound[i]) {
+                match = false;
+            }
+        }
+        for (int i = rules.length; i < rulesFound.length; i++) {
+            if (rulesFound[i] != 0) {
+                match = false;
+            }
+        }
+
+        /* 
+        System.out.print("The spring " + springNumber + " ");
+        for (int i = 0; i < springs.length; i++) {
+            System.out.print(springs[i]);
+        }
+
+        System.out.print(" generate the rules ");
+        for (int i = 0; i < rulesFound.length; i++) {
+            System.out.print(rulesFound[i] + "|");
+        }
+
+        System.out.println(" : " + match );
+        */
+        return match;
+    }
+
+}
