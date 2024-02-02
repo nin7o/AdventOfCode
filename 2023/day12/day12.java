@@ -1,11 +1,14 @@
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class day12 {
 
     public static final int SIZE = 250;
+    public static Map<String, Long> cache = new ConcurrentHashMap<String, Long>();
 
     public static void main(String[] args){
         try {
@@ -13,7 +16,7 @@ public class day12 {
             File file = new File("input");
             Scanner sc = new Scanner(file);
 
-            int totalNumberOfPossibilities = 0;
+            long totalNumberOfPossibilities = 0;
             int index = 1;
 
             while (sc.hasNextLine()) {
@@ -30,7 +33,7 @@ public class day12 {
                         springs.add(c);
                     }
                     if (i < 4 ) {
-                        springs.add('?');
+                        springs.addLast('?');
                     }
                 }
 
@@ -46,13 +49,15 @@ public class day12 {
 
                 //System.out.println(rules);
 
-                int numberOfPossibilities = numberOfSolutions(springs, rules);
+                long numberOfPossibilities = numberOfSolutions(springs, rules);
 
                 System.out.println("Number of possibilities of " + index + ": " + numberOfPossibilities);
 
                 index++;
 
                 totalNumberOfPossibilities += numberOfPossibilities;
+
+                cache.clear();
 
             }
 
@@ -64,7 +69,16 @@ public class day12 {
         }
     }
 
-    public static int numberOfSolutions(List<Character> springs, List<Integer> rules) throws Exception {
+    public static long numberOfSolutions(List<Character> springs, List<Integer> rules) throws Exception {
+        
+        //System.out.println(cache);
+        String key = toString(springs, rules);
+        if (cache.containsKey(key)) {
+            //System.out.println("cache hit");
+            return cache.get(key);
+        } else {
+            //System.out.println("cache miss");
+        }
        
         if (springs.isEmpty()) {
             if (rules.isEmpty()) {
@@ -89,10 +103,13 @@ public class day12 {
 
         if (nextSpring == '.') {
             //System.out.println("removing dot and continuing with " + remainingSprings + " and " + rules);
-            return numberOfSolutions(remainingSprings, rules);
+            long returnvalue = numberOfSolutions(remainingSprings, rules);
+            cache.put(key, returnvalue);
+            return returnvalue;
         }
 
         if (nextSpring == '#') {
+
             //System.out.println("entering group");
             int rule = rules.get(0);
             //System.out.println("rule: " + rule);
@@ -149,32 +166,48 @@ public class day12 {
                     remainingSpringsAfterGroup.removeFirst();
                 }
                 //System.out.println("removing group and continuing with " + remainingSpringsAfterGroup + " and " + remainingRules);
-                return numberOfSolutions(remainingSpringsAfterGroup, remainingRules);
+                long returnvalue =  numberOfSolutions(remainingSpringsAfterGroup, remainingRules);
+                cache.put(key, returnvalue);
+                return returnvalue;
             } else {
                 //System.out.println("group not possible with " + springs + " and " + rules + " returning 0");
+                cache.put(key, 0L);
                 return 0;
             }
         }
 
         if (nextSpring == '?') {
             //System.out.println("entering question mark");
-            // try with a dot
+             //try with a dot
             List<Character> remainingSpringsDot = new ArrayList<Character>(remainingSprings);
             remainingSpringsDot.addFirst('.');
             //System.out.println("continuing as " + remainingSpringsDot + " and " + rules);
-            int numberOfSolutionsDot = numberOfSolutions(remainingSpringsDot, rules);
+            long numberOfSolutionsDot = numberOfSolutions(remainingSpringsDot, rules);
 
-            // try with a #
+             //try with a #
             List<Character> remainingSpringsHash = new ArrayList<Character>(remainingSprings);
             remainingSpringsHash.addFirst('#');
             //System.out.println("continuing as " + remainingSpringsHash + " and " + rules);
-            int numberOfSolutionsHash = numberOfSolutions(remainingSpringsHash, rules);
+            long numberOfSolutionsHash = numberOfSolutions(remainingSpringsHash, rules);
+
+            cache.put(key, numberOfSolutionsDot + numberOfSolutionsHash);
 
             return numberOfSolutionsDot + numberOfSolutionsHash;
         }
         
         
         return 0;
+    }
+
+    public static String toString(List<Character> springs, List<Integer> rules) {
+        StringBuilder sb = new StringBuilder();
+        for (Character c : springs) {
+            sb.append(c);
+        }
+        for (Integer i : rules) {
+            sb.append(i.toString());
+        }
+        return sb.toString();
     }
 
 }
