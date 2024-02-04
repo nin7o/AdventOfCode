@@ -1,0 +1,124 @@
+import math
+import pprint
+import networkx as nx
+
+input = "input"
+
+horizontalDict = {}
+verticalDict = {}
+
+inputMatrix = []
+idMatrix = []
+
+min_reach = 4
+reach = 10
+
+id = 0
+with open(input, "r") as file:
+    for line in enumerate(file):
+        matrixline = []
+        idline = []
+        for char in line[1]:
+            if char != "\n":
+                matrixline.append(int(char))
+                id += 1
+                idline.append(id)
+        inputMatrix.append(matrixline)
+        idMatrix.append(idline)
+        
+x_size = len(inputMatrix[0])
+y_size = len(inputMatrix)
+
+# horizzontal graoh creation
+for y in range(y_size):
+    for x in range(x_size):
+        dictionary = {}
+        distance = 0
+        #compute the distance to the left starting point
+        for k in range (x - 1, x - min_reach, -1):
+            if k >= 0 and k < x_size:
+                distance += inputMatrix[y][k]
+        for i in range (x - min_reach, x - reach - 1, -1):
+            if i >= 0 and i < x_size:
+                distance += inputMatrix[y][i]
+                id = (str(idMatrix[y][i]) + "V")
+                dictionary[id] = distance
+        distance = 0
+        #compute the distance to the right starting point
+        for k in range (x + 1, x + min_reach):
+            if k >= 0 and k < x_size:
+                distance += inputMatrix[y][k]
+        for i in range (x + min_reach, x + reach + 1):
+            if i >= 0 and i < x_size:
+                distance += inputMatrix[y][i]
+                id = (str(idMatrix[y][i]) + "V")
+                dictionary[id] = distance
+        horizontalDict[str(idMatrix[y][x]) + "H"] = dictionary
+
+print("Horizontal graph created")
+
+# vertical graoh creation
+for x in range(x_size):
+    for y in range(y_size):
+        dictionary = {}
+        distance = 0
+        #compute the distance to the top starting point
+        for k in range (y - 1, y - min_reach, -1):
+            if k >= 0 and k < y_size:
+                distance += inputMatrix[k][x]
+        for i in range (y - min_reach, y - reach - 1, -1):
+            if i >= 0 and i < y_size:
+                distance += inputMatrix[i][x]
+                id = (str(idMatrix[i][x]) + "H")
+                dictionary[id] = distance
+        distance = 0
+        #compute the distance to the bottom starting point
+        for k in range (y + 1, y + min_reach):
+            if k >= 0 and k < y_size:
+                distance += inputMatrix[k][x]
+        for i in range (y + min_reach, y + reach + 1):
+            print("hehe ds le for et i = ", i, " et y = ", y)
+            if i >= 0 and i < y_size:
+                distance += inputMatrix[i][x]
+                id = (str(idMatrix[i][x]) + "H")
+                dictionary[id] = distance
+        verticalDict[str(idMatrix[y][x]) + "V"] = dictionary
+
+print("Vertical graph created")
+
+print("Horizontal graph")
+pprint.pprint(horizontalDict)
+print("Vertical graph")
+pprint.pprint(verticalDict)
+
+#concatenate the two dictionaries
+graph = {**horizontalDict, **verticalDict}
+    
+# add the entry node to the graph
+tempdict = {}
+tempdict["1H"] = 0
+tempdict["1V"] = 0
+
+graph["START"] = tempdict
+
+G = nx.DiGraph()
+
+for key in graph:
+    for key2 in graph[key]:
+        G.add_edge(key, key2, weight=graph[key][key2])
+
+# shortest path from source to endvertex
+endvertexH = str(idMatrix[y_size-1][x_size-1]) + "H"
+endvertexV = str(idMatrix[y_size-1][x_size-1]) + "V"
+
+shortestPathH = nx.shortest_path(G, source="START", target=endvertexH, weight="weight")
+shortestPathV = nx.shortest_path(G, source="START", target=endvertexV, weight="weight")
+
+print("Shortest path H: ", shortestPathH)
+print("Shortest path V: ", shortestPathV)
+
+shortest_path_lengthH = nx.shortest_path_length(G, source="START", target=endvertexH, weight="weight")
+shortest_path_lengthV = nx.shortest_path_length(G, source="START", target=endvertexV, weight="weight")
+
+print("Shortest path length H: ", shortest_path_lengthH)
+print("Shortest path length V: ", shortest_path_lengthV)
