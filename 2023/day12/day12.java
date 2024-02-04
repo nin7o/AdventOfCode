@@ -51,8 +51,6 @@ public class day12 {
 
                 long numberOfPossibilities = numberOfSolutions(springs, rules);
 
-                System.out.println("Number of possibilities of " + index + ": " + numberOfPossibilities);
-
                 index++;
 
                 totalNumberOfPossibilities += numberOfPossibilities;
