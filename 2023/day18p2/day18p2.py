@@ -43,11 +43,6 @@ def day18(list):
     polygon = shapely.geometry.Polygon(sommetList).buffer(0.5, join_style="mitre")
     
     return polygon.area
-    
-
-
-
-
 
 print("part 1", day18(p1list))
 print("part 2", day18(p2list))            
