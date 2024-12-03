@@ -37,16 +37,20 @@ def check_line(line):
     else:
         return False
 
+safe_2 = 0
 
 for line in list:
     if check_line(line):
-        num_of_safe += 1
+        safe_2 += 1
     else:
         for i in range(len(line)):
             new_line = line.copy()
             del new_line[i]
             if check_line(new_line):
-                num_of_safe += 1
+                safe_2 += 1
                 break
 
-print(num_of_safe)
+safe_1 = sum([1 for line in list if check_line(line)])
+
+print(safe_1)
+print(safe_2)
