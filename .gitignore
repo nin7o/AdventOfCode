@@ -1,4 +1,4 @@
 *.class
 .vscode
-test
+test*
 input
