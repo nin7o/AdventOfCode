@@ -92,8 +92,5 @@ new_inputs = [is_valid_joli(rules, input) for input in inputs]
 b = sum([input[int(len(input)/2)] for input in new_inputs])
 print("p2 : ",b)
 
-new_inputs = [is_valid_bogo(rules, input) for input in boginputs]
-c = sum([input[int(len(input)/2)] for input in new_inputs])
-print("p3 :",c)
 
                     
